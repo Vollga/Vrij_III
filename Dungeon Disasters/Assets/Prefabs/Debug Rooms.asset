@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5959cad0783142c47bb33c35c94ac53a, type: 3}
+  m_Name: Debug Rooms
+  m_EditorClassIdentifier: 
+  Entrance:
+  - {fileID: 5468692899388211415, guid: f84a3a10d47304d4184b26ae0a35a9e9, type: 3}
+  BossUp:
+  - {fileID: 3944781136243290144, guid: 911529648e586a748a8407339f41f80e, type: 3}
+  BossRight:
+  - {fileID: 7121152760974630302, guid: ece7b6d98589aef4eb70510877cad7b4, type: 3}
+  BossDown:
+  - {fileID: 411512307791449020, guid: 7061f86169221574b9e1aecc8bf7d158, type: 3}
+  BossLeft:
+  - {fileID: 4386588859600222824, guid: 0aca008afa14de44bbbffe94c86e4df2, type: 3}
+  EndUp:
+  - {fileID: 5676005399661992542, guid: 843d9b8ec5ff5c643ac8fc1527896979, type: 3}
+  EndRight:
+  - {fileID: 3719195402026532628, guid: 67294f31110d0f049b46e2a4649c02d9, type: 3}
+  EndDown:
+  - {fileID: 5699999775264113575, guid: c450a61b2cf38d84a9116120a30d1d4e, type: 3}
+  EndLeft:
+  - {fileID: 7703625140199999280, guid: 87e5cc00c4912494a8acc5a435eb82ca, type: 3}
+  CorridorHorizontal:
+  - {fileID: 130636779219858246, guid: 960d6dbd8e668c54fb64795a9854340a, type: 3}
+  CorridorVertical:
+  - {fileID: 5371556797299069717, guid: 86dfabf5e38d7ca4383f8debfacb8455, type: 3}
+  CornerUpRight:
+  - {fileID: 7063440382478308370, guid: e66f956cfa4ef364ea6bdd5653a926a6, type: 3}
+  CornerUpLeft:
+  - {fileID: 2654833125044426167, guid: 3b7b63d2fdf372a4899829e2f4498cee, type: 3}
+  CornerDownRight:
+  - {fileID: 5691311404325925968, guid: c39470249c25e9b4d9758d93559aa764, type: 3}
+  CornerDownLeft:
+  - {fileID: 954192043988326343, guid: 67fc05458497fb44abe2a545f3109a50, type: 3}
+  TUp:
+  - {fileID: 1789236552192405558, guid: 13f21b20c17a68b4a975586be4bb974a, type: 3}
+  TRight:
+  - {fileID: 6328576336298981464, guid: 24d56dd5b62d8d4419abdcaa0df58760, type: 3}
+  TDown:
+  - {fileID: 2016293444018549881, guid: c7507e91a9de6554994000a89fc9deab, type: 3}
+  TLeft:
+  - {fileID: 5272552009260276517, guid: 72f2a1b4d43e6f544841ca3778674025, type: 3}
+  Center:
+  - {fileID: 390612476331972923, guid: a9cad44c0eb7db245bc2a06cb5469cdd, type: 3}
+  ErrorRoom: {fileID: 7763909774282963703, guid: 9e266cf7c095fa54782f8240d73e5d5b, type: 3}

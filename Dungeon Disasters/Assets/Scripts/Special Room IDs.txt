@@ -1,0 +1,5 @@
+ROOM IDS
+
+0 = Standard Rooms
+1 = Start Room
+2 = Boss Room
