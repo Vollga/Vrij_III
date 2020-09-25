@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe777c302164bc489eedf1fcafce316, type: 3}
+  m_Name: Blockout
+  m_EditorClassIdentifier: 
+  Floor:
+  - {fileID: 3218092935879227733, guid: 498331f06202fa342887c5e0e92b4bcd, type: 3}
+  Wall_Straight:
+  - {fileID: 5535126645890968761, guid: 791a6dea9fc7f4040995507cda6af455, type: 3}
+  Wall_Corner_Inner:
+  - {fileID: 5549132613766933335, guid: 7e35f464f9af5234cb0241e9982a8e21, type: 3}
+  Wall_Corner_Outer:
+  - {fileID: 6132975679884494907, guid: f1a027cc99f2f56439e0ed49c17509a0, type: 3}
+  Door:
+  - {fileID: 5042527867595839280, guid: 97d0bd7ba95ed1140a85b1bd57d51934, type: 3}
+  Pit_Bottom:
+  - {fileID: 6602624715624393375, guid: dc90fee4a07f4214185043bdcb4376c5, type: 3}
+  Pit_Wall:
+  - {fileID: 5535126645890968761, guid: 791a6dea9fc7f4040995507cda6af455, type: 3}
+  Pit_Corner_Inner:
+  - {fileID: 7995091188235415498, guid: 9c600a6ec5766f54f98599ae0086c370, type: 3}
+  Pit_Corner_Outer:
+  - {fileID: 9175849265262954891, guid: e6ebb6e3d0bd57e47be31ace411b131f, type: 3}
+  Raised_Floor:
+  - {fileID: 6688774956991403292, guid: 0a1eb5fcc2473e9418584e2ae4b644c2, type: 3}
+  Raised_Stairs:
+  - {fileID: 1215511729951335346, guid: 5ca6115aff395ad499bcf19ced7c203d, type: 3}
+  Raised_Wall:
+  - {fileID: 5259394705260108208, guid: 29496adfc4ee1a748a2f134b6ac1dd41, type: 3}
+  Raised_Corner_Inner:
+  - {fileID: 9181281002131473113, guid: 8e3bc19ca8928d04c9950fa544f858d8, type: 3}
+  Raised_Corner_Outer:
+  - {fileID: 2691308352073491924, guid: d61383547960ac046a7b0a217b01b08b, type: 3}
+  Raised_Corner_Double:
+  - {fileID: 1886223727877679797, guid: 8071edb663875c14aa12d5e7eec5905e, type: 3}
+  Chest:
+  - {fileID: 4122610684504613643, guid: c8176e0f42624bf4c841d485838890f0, type: 3}
+  Switch:
+  - {fileID: 6829695442273076948, guid: f2443a4d2384ac247aa8085e7abe9e0e, type: 3}
+  Pillar:
+  - {fileID: 6248485705081740367, guid: bd0a09ee2b93ddd4aaff507b53de3c5c, type: 3}
+  Statue:
+  - {fileID: 9106970553572125702, guid: c4937464fc2d67e45b2d82e77ffabccd, type: 3}
+  Clutter:
+  - {fileID: 1999894403150743897, guid: e5176683429e2364d82a9639f40e6f3e, type: 3}
+  Portal:
+  - {fileID: 8302032749871696131, guid: cf0aaa971e59f10489fa4d2c86b83573, type: 3}
+  Void:
+  - {fileID: 6602624715624393375, guid: 4a14284b576ad3048979aeffb7d83f3f, type: 3}

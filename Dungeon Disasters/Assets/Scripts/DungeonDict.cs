@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName ="New Room Set",menuName ="Room Set")]
+[CreateAssetMenu(fileName ="New Room Set",menuName = "ScriptableObjects/Room Set")]
 public class DungeonDict : ScriptableObject
 {
     [Header("Entrances")]

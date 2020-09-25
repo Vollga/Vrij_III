@@ -27,7 +27,7 @@ MonoBehaviour:
   EndRight:
   - {fileID: 3719195402026532628, guid: 67294f31110d0f049b46e2a4649c02d9, type: 3}
   EndDown:
-  - {fileID: 5699999775264113575, guid: c450a61b2cf38d84a9116120a30d1d4e, type: 3}
+  - {fileID: 4851053201267728973, guid: c17b1b762086b514283d2644b05cf3bb, type: 3}
   EndLeft:
   - {fileID: 7703625140199999280, guid: 87e5cc00c4912494a8acc5a435eb82ca, type: 3}
   CorridorHorizontal:
@@ -51,5 +51,5 @@ MonoBehaviour:
   TLeft:
   - {fileID: 5272552009260276517, guid: 72f2a1b4d43e6f544841ca3778674025, type: 3}
   Center:
-  - {fileID: 390612476331972923, guid: a9cad44c0eb7db245bc2a06cb5469cdd, type: 3}
+  - {fileID: 4851053201267728973, guid: 92968932ee87c9046b6a5f08ea816d2f, type: 3}
   ErrorRoom: {fileID: 7763909774282963703, guid: 9e266cf7c095fa54782f8240d73e5d5b, type: 3}

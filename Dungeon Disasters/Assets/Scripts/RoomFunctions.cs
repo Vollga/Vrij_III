@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoomFunctions : MonoBehaviour
+public class RoomGridFunctions : MonoBehaviour
 {
-    public static Room[,] AssignRoomTypes(Room[,] dungeon, DungeonDict roomSet)
+    public static RoomGrid[,] AssignRoomTypes(RoomGrid[,] dungeon, DungeonDict roomSet)
     {
         for (int iZ = 0; iZ < dungeon.GetLength(1); iZ++)
         {
@@ -25,7 +25,7 @@ public class RoomFunctions : MonoBehaviour
                     if (dungeon[iX, iZ - 1].isEnabled)      //Check if has room Below
                     {
                         dungeon[iX, iZ].hasRoomDown = true;
-                        print("Room " + iX + "," + iZ + " has a neighbor below");
+                        print("RoomGrid " + iX + "," + iZ + " has a neighbor below");
                     }
                 }
 
@@ -54,7 +54,7 @@ public class RoomFunctions : MonoBehaviour
         return dungeon;
     }
 
-    public static Room[,] SetSpecialRoomLeft(Room[,] dungeon, int ID)
+    public static RoomGrid[,] SetSpecialRoomLeft(RoomGrid[,] dungeon, int ID)
     {
         bool roomIsPlaced = false;
         for (int iX = 0; iX < dungeon.GetLength(0); iX++)
@@ -78,7 +78,7 @@ public class RoomFunctions : MonoBehaviour
         return dungeon;
     }
 
-    public static Room[,] SetSpecialRoomTop(Room[,] dungeon, int ID)
+    public static RoomGrid[,] SetSpecialRoomTop(RoomGrid[,] dungeon, int ID)
     {
         bool roomIsPlaced = false;
         for (int iZ = dungeon.GetLength(1) - 1; iZ >= 0; iZ--)
@@ -102,7 +102,7 @@ public class RoomFunctions : MonoBehaviour
         return dungeon;
     }
 
-    public static Room[,] SetSpecialRoomRight(Room[,] dungeon, int ID)
+    public static RoomGrid[,] SetSpecialRoomRight(RoomGrid[,] dungeon, int ID)
     {
         bool roomIsPlaced = false;
         for (int iX = dungeon.GetLength(0) - 1; iX >= 0; iX--)
@@ -126,7 +126,7 @@ public class RoomFunctions : MonoBehaviour
         return dungeon;
     }
 
-    public static Room SetAsset(Room room, DungeonDict roomSet)
+    public static RoomGrid SetAsset(RoomGrid room, DungeonDict roomSet)
     {
         switch (room.ID)
         {

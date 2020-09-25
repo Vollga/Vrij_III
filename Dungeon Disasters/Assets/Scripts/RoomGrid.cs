@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Room
+public class RoomGrid
 {
     public bool isEnabled = false;      //Is there a room in this spot?
 

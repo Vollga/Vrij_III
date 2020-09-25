@@ -4,7 +4,7 @@ public class MapGenerate : MonoBehaviour
 {
     // Runner Variants
 
-    public static Room[,] RunnerBasic(Room[,] dungeon, Vector2 runnerPosCurrent, int runnerDistance) //Runner with random direction, can go back on itself
+    public static RoomGrid[,] RunnerBasic(RoomGrid[,] dungeon, Vector2 runnerPosCurrent, int runnerDistance) //Runner with random direction, can go back on itself
     {
         // Set given position as true
         dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y].Enable();
@@ -33,7 +33,7 @@ public class MapGenerate : MonoBehaviour
         return dungeon;
     }
 
-    public static Room[,] RunnerNoBacktrack(Room[,] dungeon, Vector2 runnerPosCurrent, int runnerDistance, Vector2 previousDirection) //Runner that can't go back on itself
+    public static RoomGrid[,] RunnerNoBacktrack(RoomGrid[,] dungeon, Vector2 runnerPosCurrent, int runnerDistance, Vector2 previousDirection) //Runner that can't go back on itself
     {
         // Set given position as true
         dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y].Enable();
@@ -66,7 +66,7 @@ public class MapGenerate : MonoBehaviour
         return dungeon;
     }
 
-    public static Room[,] RunnerStraightAhead(Room[,] dungeon, Vector2 runnerPosCurrent, int runnerDistance, Vector2 previousDirection) //Runner that can't go back on itself, instead it defaults to going straight
+    public static RoomGrid[,] RunnerStraightAhead(RoomGrid[,] dungeon, Vector2 runnerPosCurrent, int runnerDistance, Vector2 previousDirection) //Runner that can't go back on itself, instead it defaults to going straight
     {
         // Set given position as true
         dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y].Enable();
@@ -104,8 +104,8 @@ public class MapGenerate : MonoBehaviour
     }
 
 
-    // Special Room Generators
-    public static Room[,] PlaceStart(Room[,] dungeon)
+    // Special RoomGrid Generators
+    public static RoomGrid[,] PlaceStart(RoomGrid[,] dungeon)
     {
         bool startIsPlaced = false;
 
@@ -132,28 +132,28 @@ public class MapGenerate : MonoBehaviour
     }
 
 
-    public static Room[,] PlaceSpecial(Room[,] dungeon)
+    public static RoomGrid[,] PlaceSpecial(RoomGrid[,] dungeon)
     {
-        int dir = Random.Range(0, 3); // Generate a random side to place the boss room at (0: Left, 1: Top, 2: Right)
+        int dir = Random.Range(0, 3); // Generate a random side to place the boss RoomGrid at (0: Left, 1: Top, 2: Right)
 
         switch (dir)
         {
             case 0: //Left Side
-                RoomFunctions.SetSpecialRoomLeft(dungeon, 2);
-                RoomFunctions.SetSpecialRoomTop(dungeon, 0);
-                RoomFunctions.SetSpecialRoomRight(dungeon, 0);
+                RoomGridFunctions.SetSpecialRoomLeft(dungeon, 2);
+                RoomGridFunctions.SetSpecialRoomTop(dungeon, 0);
+                RoomGridFunctions.SetSpecialRoomRight(dungeon, 0);
                 break;
 
             case 1: //Top Side
-                RoomFunctions.SetSpecialRoomLeft(dungeon, 0);
-                RoomFunctions.SetSpecialRoomTop(dungeon, 2);
-                RoomFunctions.SetSpecialRoomRight(dungeon, 0);
+                RoomGridFunctions.SetSpecialRoomLeft(dungeon, 0);
+                RoomGridFunctions.SetSpecialRoomTop(dungeon, 2);
+                RoomGridFunctions.SetSpecialRoomRight(dungeon, 0);
                 break;
 
             case 2: //Right Side
-                RoomFunctions.SetSpecialRoomLeft(dungeon, 0);
-                RoomFunctions.SetSpecialRoomTop(dungeon, 0);
-                RoomFunctions.SetSpecialRoomRight(dungeon, 2);
+                RoomGridFunctions.SetSpecialRoomLeft(dungeon, 0);
+                RoomGridFunctions.SetSpecialRoomTop(dungeon, 0);
+                RoomGridFunctions.SetSpecialRoomRight(dungeon, 2);
                 break;
         }
 
