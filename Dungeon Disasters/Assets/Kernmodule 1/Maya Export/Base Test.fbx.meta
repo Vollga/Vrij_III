@@ -21,7 +21,11 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Male_BasicControlRig:Right_Eblow_Jnt' has
+      translation animation that will be discarded.\n\t'Male_BasicControlRig:Right_ForeArm_Jnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -69,7 +73,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
@@ -79,8 +83,1254 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: Male_BasicControlRig:Hip_Jnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_UpperLeg_Jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_UpperLeg_Jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Knee_Jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Knee_Jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Ankle_Jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Ankle_Jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Spine1_Jnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Spine2_Jnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Neck1_Jnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Head_Jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Shoulder_Jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Shoulder_Jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_UpperArm_Jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_UpperArm_Jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Eblow_Jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Eblow_Jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Wrist_Jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Wrist_Jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Toes_Jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Toes_Jnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Thumb1_Jnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Thumb2_Jnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Thumb3_Jnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_IndexFinger1_Jnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_IndexFinger2_Jnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_IndexFinger3_Jnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_MiddleFinger1_Jnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_MIddleFinger2_Jnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_MiddleFinger3_Jnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_RingFinger1_Jnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_RingFinger2_Jnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_RingFinger3_Jnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Pink1_Jnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Pink2_Jnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Left_Pink3_Jnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Thumb1_Jnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Thumb2_Jnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Thumb3_Jnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_IndexFinger1_Jnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_IndexFinger2_Jnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_IndexFinger3_Jnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_MiddleFinger1_Jnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_MIddleFinger2_Jnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_MiddleFinger3_Jnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_RingFinger1_Jnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_RingFinger2_Jnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_RingFinger3_Jnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Pink1_Jnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Pink2_Jnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Right_Pink3_Jnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_BasicControlRig:Spine3_Jnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Base Test(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Geo_Grp
+      parentName: Base Test(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:BaseModel_Male
+      parentName: Male_BasicControlRig:Geo_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Rig_Grp
+      parentName: Base Test(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Hip_Jnt
+      parentName: Male_BasicControlRig:Rig_Grp
+      position: {x: -0.0048807105, y: 0.72801983, z: 0.01261504}
+      rotation: {x: -0.44396144, y: 0.55036193, z: -0.44396144, w: 0.550362}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: Male_BasicControlRig:Spine1_Jnt
+      parentName: Male_BasicControlRig:Hip_Jnt
+      position: {x: -0.08113855, y: -0.00000013892392, z: 0.0000000036059886}
+      rotation: {x: -0, y: 0.000000029802319, z: -0.03158362, w: 0.9995011}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Male_BasicControlRig:Spine2_Jnt
+      parentName: Male_BasicControlRig:Spine1_Jnt
+      position: {x: -0.07110719, y: -0.00000002474382, z: 0.000000009737736}
+      rotation: {x: 0.9953014, y: -0.09682535, z: 7.101647e-10, w: 0.000000026907697}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: Male_BasicControlRig:Spine3_Jnt
+      parentName: Male_BasicControlRig:Spine2_Jnt
+      position: {x: -0.07446804, y: 0.000000004410903, z: -0.000000004018795}
+      rotation: {x: 0.0000000029968792, y: -0.0000000044451944, z: 0.12694222, w: 0.99191016}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000004}
+    - name: Male_BasicControlRig:Chest_Jnt
+      parentName: Male_BasicControlRig:Spine3_Jnt
+      position: {x: -0.07783824, y: -7.5495166e-17, z: -2.381764e-17}
+      rotation: {x: 9.615929e-11, y: -1.6513811e-10, z: 0.0045339908, w: 0.99998975}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Male_BasicControlRig:Neck1_Jnt
+      parentName: Male_BasicControlRig:Chest_Jnt
+      position: {x: -0.07291248, y: 0.0000002243758, z: -0.000000025287017}
+      rotation: {x: -0.9771691, y: 0.2124634, z: 0.0000000072663227, w: -0.0000000053209446}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Male_BasicControlRig:Neck2_Jnt
+      parentName: Male_BasicControlRig:Neck1_Jnt
+      position: {x: -0.033054274, y: -0.0009345791, z: 0.000000007883992}
+      rotation: {x: -9.478133e-10, y: -0.000000001006239, z: 0.032793846, w: 0.9994622}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Male_BasicControlRig:Head_Jnt
+      parentName: Male_BasicControlRig:Neck2_Jnt
+      position: {x: -0.05147609, y: 0.00054718455, z: 0.000000008475257}
+      rotation: {x: 0.000000001279638, y: 0.000000001374624, z: -0.04454858, w: 0.9990072}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Male_BasicControlRig:HeadTip_Jnt
+      parentName: Male_BasicControlRig:Head_Jnt
+      position: {x: -0.12649702, y: -2.8865798e-17, z: 2.8526316e-17}
+      rotation: {x: 0.47514632, y: -0.52367544, z: 0.47514632, w: 0.5236754}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Male_BasicControlRig:Left_Shoulder_Jnt
+      parentName: Male_BasicControlRig:Chest_Jnt
+      position: {x: -0.06165723, y: -0.019809574, z: 0.032441817}
+      rotation: {x: -0.44493434, y: 0.54957575, z: 0.38908604, w: 0.5904338}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_UpperArm_Jnt
+      parentName: Male_BasicControlRig:Left_Shoulder_Jnt
+      position: {x: -0.06538539, y: -0.0000000042637565, z: -0.000000007841255}
+      rotation: {x: 0.00000010430809, y: -0.00000035762775, z: 0.07180496, w: 0.99741876}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_Eblow_Jnt
+      parentName: Male_BasicControlRig:Left_UpperArm_Jnt
+      position: {x: -0.19891565, y: 0.00000009756655, z: 0.000000010581529}
+      rotation: {x: -0.000000060109365, y: -0.000000022008381, z: -0.024919655, w: 0.9996895}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Male_BasicControlRig:Left_ForeArm_Jnt
+      parentName: Male_BasicControlRig:Left_Eblow_Jnt
+      position: {x: -0.06974577, y: -0.00008712932, z: -0.000000020265873}
+      rotation: {x: -0, y: 1.7763564e-15, z: -1.3229096e-15, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_Wrist_Jnt
+      parentName: Male_BasicControlRig:Left_ForeArm_Jnt
+      position: {x: -0.105765216, y: 0.00026501462, z: 0.0000000929893}
+      rotation: {x: 0.00000015333475, y: 0.00000004775299, z: 0.031471673, w: 0.9995046}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: Male_BasicControlRig:Left_HandSide_Jnt
+      parentName: Male_BasicControlRig:Left_Wrist_Jnt
+      position: {x: -0.02874786, y: 0.006762022, z: -0.0151181305}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Male_BasicControlRig:Left_Pink1_Jnt
+      parentName: Male_BasicControlRig:Left_HandSide_Jnt
+      position: {x: -0.034430597, y: 0.0069838637, z: -0.002418431}
+      rotation: {x: -0.014973456, y: 0.029074704, z: -0.03640106, w: 0.99880207}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: Male_BasicControlRig:Left_Pink2_Jnt
+      parentName: Male_BasicControlRig:Left_Pink1_Jnt
+      position: {x: -0.022255365, y: 0.00027887183, z: -0.0002803871}
+      rotation: {x: -0.000029394392, y: 0.005560183, z: 0.0073178182, w: 0.9999578}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_Pink3_Jnt
+      parentName: Male_BasicControlRig:Left_Pink2_Jnt
+      position: {x: -0.013212343, y: 0.00035276107, z: -0.00011810917}
+      rotation: {x: -0.00047358498, y: 0.025420228, z: 0.008327311, w: 0.99964213}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: Male_BasicControlRig:Left_PinkTip_Jnt
+      parentName: Male_BasicControlRig:Left_Pink3_Jnt
+      position: {x: -0.011036184, y: 0.0012466789, z: -0.00016741002}
+      rotation: {x: 0.00000002990733, y: -0.015146293, z: 0.00000007238458, w: 0.9998853}
+      scale: {x: 1.0000006, y: 1, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_RingFinger1_Jnt
+      parentName: Male_BasicControlRig:Left_Wrist_Jnt
+      position: {x: -0.07141509, y: 0.015464184, z: -0.0058356635}
+      rotation: {x: -0.016742049, y: 0.024927698, z: -0.040843677, w: 0.99871427}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+    - name: Male_BasicControlRig:Left_RingFinger2_Jnt
+      parentName: Male_BasicControlRig:Left_RingFinger1_Jnt
+      position: {x: -0.02359251, y: -0.000018859544, z: 0.00010678594}
+      rotation: {x: 0.00019379143, y: 0.0054510753, z: 0.010503213, w: 0.99993}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: Male_BasicControlRig:Left_RingFinger3_Jnt
+      parentName: Male_BasicControlRig:Left_RingFinger2_Jnt
+      position: {x: -0.015929926, y: 0.0003117722, z: 0.00021185273}
+      rotation: {x: 0.00000002600426, y: 0.030762088, z: -0.00000009715945, w: 0.99952674}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_RingFingerTip_Jnt
+      parentName: Male_BasicControlRig:Left_RingFinger3_Jnt
+      position: {x: -0.015752424, y: 0.00047486607, z: -0.00047994818}
+      rotation: {x: -0.00000013662861, y: -0.015146398, z: 0.00000007660528, w: 0.9998853}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: Male_BasicControlRig:Left_MiddleFinger1_Jnt
+      parentName: Male_BasicControlRig:Left_Wrist_Jnt
+      position: {x: -0.072803065, y: 0.016833996, z: 0.008546647}
+      rotation: {x: -0.018640993, y: 0.03001175, z: -0.065228045, w: 0.9972448}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+    - name: Male_BasicControlRig:Left_MIddleFinger2_Jnt
+      parentName: Male_BasicControlRig:Left_MiddleFinger1_Jnt
+      position: {x: -0.024840867, y: -0.0012501794, z: 0.000028790977}
+      rotation: {x: 0.0008019476, y: 0.004635131, z: 0.035221603, w: 0.9993685}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_MiddleFinger3_Jnt
+      parentName: Male_BasicControlRig:Left_MIddleFinger2_Jnt
+      position: {x: -0.01910104, y: 0.00036931137, z: 0.00033633804}
+      rotation: {x: 0.00000013574022, y: 0.030761948, z: 0.000000106840126, w: 0.9995268}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_FinddleFingerTip_Jnt
+      parentName: Male_BasicControlRig:Left_MiddleFinger3_Jnt
+      position: {x: -0.01638894, y: 0.0005987067, z: -0.0002887079}
+      rotation: {x: -0.000000053385428, y: -0.015146342, z: -0.00000014723646, w: 0.9998854}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+    - name: Male_BasicControlRig:Left_IndexFinger1_Jnt
+      parentName: Male_BasicControlRig:Left_Wrist_Jnt
+      position: {x: -0.07072107, y: 0.0147792, z: 0.022441467}
+      rotation: {x: -0.019435212, y: 0.025817417, z: -0.06242864, w: 0.99752617}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+    - name: Male_BasicControlRig:Left_IndexFinger2_Jnt
+      parentName: Male_BasicControlRig:Left_IndexFinger1_Jnt
+      position: {x: -0.025538282, y: -0.0011946354, z: 0.0003378584}
+      rotation: {x: 0.00081514736, y: 0.0039321417, z: 0.05738334, w: 0.9983441}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_IndexFinger3_Jnt
+      parentName: Male_BasicControlRig:Left_IndexFinger2_Jnt
+      position: {x: -0.016427657, y: 0.0011177387, z: 0.00017429296}
+      rotation: {x: -0.000000089697984, y: 0.030761933, z: -0.000000011223162, w: 0.99952674}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: Male_BasicControlRig:Left_IndexFingerTip_Jnt
+      parentName: Male_BasicControlRig:Left_IndexFinger3_Jnt
+      position: {x: -0.014432871, y: 0.0012095327, z: -0.00032355936}
+      rotation: {x: 0.00000005104767, y: -0.0151462285, z: 0.000000024913199, w: 0.9998853}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_Thumb1_Jnt
+      parentName: Male_BasicControlRig:Left_Wrist_Jnt
+      position: {x: -0.011850788, y: -0.0074706012, z: 0.013422055}
+      rotation: {x: 0.2672145, y: 0.3771171, z: -0.067281455, w: 0.8842242}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Male_BasicControlRig:Left_Thumb2_Jnt
+      parentName: Male_BasicControlRig:Left_Thumb1_Jnt
+      position: {x: -0.024932934, y: 0.0027947226, z: -0.0008733234}
+      rotation: {x: 0.0046661473, y: 0.002443819, z: -0.09459602, w: 0.9955019}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Male_BasicControlRig:Left_Thumb3_Jnt
+      parentName: Male_BasicControlRig:Left_Thumb2_Jnt
+      position: {x: -0.034204155, y: -0.0047307303, z: -0.0027992066}
+      rotation: {x: -0.0042047305, y: -0.06759686, z: 0.0399047, w: 0.99690557}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: Male_BasicControlRig:Left_ThumbTip_Jnt
+      parentName: Male_BasicControlRig:Left_Thumb3_Jnt
+      position: {x: -0.018020732, y: 1.4210854e-16, z: -7.105427e-17}
+      rotation: {x: -0.0000001106969, y: -0.2590996, z: -0.000000077658164, w: 0.9658506}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Male_BasicControlRig:Right_Shoulder_Jnt
+      parentName: Male_BasicControlRig:Chest_Jnt
+      position: {x: -0.061659448, y: -0.019808862, z: -0.032441836}
+      rotation: {x: 0.54957575, y: 0.44493428, z: -0.5904338, w: 0.38908604}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: Male_BasicControlRig:Right_UpperArm_Jnt
+      parentName: Male_BasicControlRig:Right_Shoulder_Jnt
+      position: {x: 0.065385275, y: 0.0000010205193, z: -0.000000011637366}
+      rotation: {x: -0.0000000745058, y: 0.0000000745058, z: 0.07180158, w: 0.99741894}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Male_BasicControlRig:Right_Eblow_Jnt
+      parentName: Male_BasicControlRig:Right_UpperArm_Jnt
+      position: {x: 0.19891658, y: 0.0000011821942, z: -0.0000000144789265}
+      rotation: {x: -0.000000025992264, y: 0.0000000129948345, z: -0.024919653, w: 0.9996895}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000006}
+    - name: Male_BasicControlRig:Right_ForeArm_Jnt
+      parentName: Male_BasicControlRig:Right_Eblow_Jnt
+      position: {x: 0.06974568, y: 0.00008726433, z: -0.000000018942504}
+      rotation: {x: -0, y: -8.881781e-16, z: 3.377651e-16, w: 1}
+      scale: {x: 0.9999997, y: 0.9999997, z: 1}
+    - name: Male_BasicControlRig:Right_Wrist_Jnt
+      parentName: Male_BasicControlRig:Right_ForeArm_Jnt
+      position: {x: 0.10576525, y: -0.0002652318, z: 0.000000039623764}
+      rotation: {x: -0.0000000071723845, y: -0.00000007176904, z: 0.031475127, w: 0.9995046}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: Male_BasicControlRig:Right_HandSide_Jnt
+      parentName: Male_BasicControlRig:Right_Wrist_Jnt
+      position: {x: 0.028747886, y: -0.0067622922, z: 0.015118099}
+      rotation: {x: -0.000000079268624, y: -0.000000028668898, z: -0.00000005774197, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000007}
+    - name: Male_BasicControlRig:Right_Pink1_Jnt
+      parentName: Male_BasicControlRig:Right_HandSide_Jnt
+      position: {x: 0.034430392, y: -0.0069838213, z: 0.0024185092}
+      rotation: {x: -0.0149734, y: 0.029073186, z: -0.036400016, w: 0.99880207}
+      scale: {x: 1.0000004, y: 1, z: 1.0000005}
+    - name: Male_BasicControlRig:Right_Pink2_Jnt
+      parentName: Male_BasicControlRig:Right_Pink1_Jnt
+      position: {x: 0.022255786, y: -0.00027907247, z: 0.0002802869}
+      rotation: {x: -0.00002934783, y: 0.0055600344, z: 0.0073198155, w: 0.9999578}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000008}
+    - name: Male_BasicControlRig:Right_Pink3_Jnt
+      parentName: Male_BasicControlRig:Right_Pink2_Jnt
+      position: {x: 0.01321259, y: -0.00035294198, z: 0.00011814414}
+      rotation: {x: -0.00047232615, y: 0.02543464, z: 0.008300778, w: 0.99964195}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: Male_BasicControlRig:Right_PinkTip_Jnt
+      parentName: Male_BasicControlRig:Right_Pink3_Jnt
+      position: {x: 0.011035926, y: -0.0012460775, z: 0.00016747121}
+      rotation: {x: 0.000000075942324, y: -0.015146372, z: 0.0000000978931, w: 0.9998853}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000005}
+    - name: Male_BasicControlRig:Right_RingFinger1_Jnt
+      parentName: Male_BasicControlRig:Right_Wrist_Jnt
+      position: {x: 0.07141551, y: -0.015464787, z: 0.0058357003}
+      rotation: {x: -0.016742976, y: 0.024930585, z: -0.040857766, w: 0.9987136}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000007}
+    - name: Male_BasicControlRig:Right_RingFinger2_Jnt
+      parentName: Male_BasicControlRig:Right_RingFinger1_Jnt
+      position: {x: 0.023592865, y: 0.00001926446, z: -0.000106784486}
+      rotation: {x: 0.00019401677, y: 0.005450757, z: 0.010511731, w: 0.99992985}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000006}
+    - name: Male_BasicControlRig:Right_RingFinger3_Jnt
+      parentName: Male_BasicControlRig:Right_RingFinger2_Jnt
+      position: {x: 0.01592881, y: -0.0003117276, z: -0.00021193559}
+      rotation: {x: 0.000000009487845, y: 0.030762041, z: 0.000000024206647, w: 0.99952674}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000006}
+    - name: Male_BasicControlRig:Right_RingFingerTip_Jnt
+      parentName: Male_BasicControlRig:Right_RingFinger3_Jnt
+      position: {x: 0.015752863, y: -0.00047438464, z: 0.0004799824}
+      rotation: {x: -0.0000000909834, y: -0.015146453, z: -0.000000029682477, w: 0.9998854}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: Male_BasicControlRig:Right_MiddleFinger1_Jnt
+      parentName: Male_BasicControlRig:Right_Wrist_Jnt
+      position: {x: 0.07280338, y: -0.01683455, z: -0.00854671}
+      rotation: {x: -0.018640786, y: 0.030014366, z: -0.065233305, w: 0.99724436}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000007}
+    - name: Male_BasicControlRig:Right_MIddleFinger2_Jnt
+      parentName: Male_BasicControlRig:Right_MiddleFinger1_Jnt
+      position: {x: 0.024840524, y: 0.0012501191, z: -0.00002868586}
+      rotation: {x: 0.00080172607, y: 0.004635536, z: 0.035207264, w: 0.999369}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000002}
+    - name: Male_BasicControlRig:Right_MiddleFinger3_Jnt
+      parentName: Male_BasicControlRig:Right_MIddleFinger2_Jnt
+      position: {x: 0.019101137, y: -0.00036877958, z: -0.00033636874}
+      rotation: {x: 0.0000000853324, y: 0.030761985, z: 0.000000013729727, w: 0.9995268}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: Male_BasicControlRig:Right_FinddleFingerTip_Jnt
+      parentName: Male_BasicControlRig:Right_MiddleFinger3_Jnt
+      position: {x: 0.016388867, y: -0.00059907045, z: 0.00028865508}
+      rotation: {x: -0.00000009368483, y: -0.015146352, z: -0.000000025870893, w: 0.9998853}
+      scale: {x: 0.9999998, y: 1, z: 1.0000005}
+    - name: Male_BasicControlRig:Right_IndexFinger1_Jnt
+      parentName: Male_BasicControlRig:Right_Wrist_Jnt
+      position: {x: 0.07072082, y: -0.014779203, z: -0.022441467}
+      rotation: {x: -0.019435357, y: 0.02581838, z: -0.062433086, w: 0.9975258}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000007}
+    - name: Male_BasicControlRig:Right_IndexFinger2_Jnt
+      parentName: Male_BasicControlRig:Right_IndexFinger1_Jnt
+      position: {x: 0.025538571, y: 0.0011947455, z: -0.00033787696}
+      rotation: {x: 0.0008152163, y: 0.0039319107, z: 0.05738994, w: 0.9983438}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000008}
+    - name: Male_BasicControlRig:Right_IndexFinger3_Jnt
+      parentName: Male_BasicControlRig:Right_IndexFinger2_Jnt
+      position: {x: 0.016427372, y: -0.0011178612, z: -0.00017426861}
+      rotation: {x: 0.0000000119907755, y: 0.030761946, z: -0.000000099107616, w: 0.9995268}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.99999994}
+    - name: Male_BasicControlRig:Right_IndexFingerTip_Jnt
+      parentName: Male_BasicControlRig:Right_IndexFinger3_Jnt
+      position: {x: 0.014433143, y: -0.0012102616, z: 0.00032355095}
+      rotation: {x: 0.000000036430688, y: -0.015146315, z: 0.000000038287276, w: 0.9998853}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Male_BasicControlRig:Right_Thumb1_Jnt
+      parentName: Male_BasicControlRig:Right_Wrist_Jnt
+      position: {x: 0.011851171, y: 0.0074707502, z: -0.013422021}
+      rotation: {x: 0.26721558, y: 0.37711033, z: -0.06727493, w: 0.88422716}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000004}
+    - name: Male_BasicControlRig:Right_Thumb2_Jnt
+      parentName: Male_BasicControlRig:Right_Thumb1_Jnt
+      position: {x: 0.02493226, y: -0.0027951507, z: 0.00087304466}
+      rotation: {x: 0.0046663857, y: 0.0024491835, z: -0.09461169, w: 0.9955004}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Male_BasicControlRig:Right_Thumb3_Jnt
+      parentName: Male_BasicControlRig:Right_Thumb2_Jnt
+      position: {x: 0.034204744, y: 0.004731386, z: 0.0027991303}
+      rotation: {x: -0.0042062304, y: -0.06758532, z: 0.03992347, w: 0.9969055}
+      scale: {x: 1.0000004, y: 1, z: 0.99999994}
+    - name: Male_BasicControlRig:Right_ThumbTip_Jnt
+      parentName: Male_BasicControlRig:Right_Thumb3_Jnt
+      position: {x: 0.018020606, y: -0.00000057440985, z: 0.0000003178204}
+      rotation: {x: -0.00000024903133, y: -0.25909975, z: 0.0000000931406, w: 0.96585053}
+      scale: {x: 1.0000004, y: 1, z: 0.9999996}
+    - name: Male_BasicControlRig:Left_UpperLeg_Jnt
+      parentName: Male_BasicControlRig:Hip_Jnt
+      position: {x: -0.046254396, y: 0.011772251, z: -0.05765142}
+      rotation: {x: -0.06539476, y: -0.99785954, z: -0, w: 0.000000029802322}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Male_BasicControlRig:Left_Knee_Jnt
+      parentName: Male_BasicControlRig:Left_UpperLeg_Jnt
+      position: {x: -0.3664849, y: 0.0000023758157, z: -0.00000022885959}
+      rotation: {x: 0.00000006151288, y: 0.000000025835128, z: -0.002922136, w: 0.99999577}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000006}
+    - name: Male_BasicControlRig:Left_Ankle_Jnt
+      parentName: Male_BasicControlRig:Left_Knee_Jnt
+      position: {x: -0.30563483, y: -0.000000018548292, z: -0.000000012679844}
+      rotation: {x: 0.93382597, y: 0.3577278, z: 0.0000000015791828, w: 0.000000047371483}
+      scale: {x: 1, y: 0.9999996, z: 0.9999997}
+    - name: Male_BasicControlRig:Left_Foot_Jnt
+      parentName: Male_BasicControlRig:Left_Ankle_Jnt
+      position: {x: -0.085571736, y: 0.0000000121606885, z: 0.000000005724542}
+      rotation: {x: 0.000000012203512, y: 0.000000028077714, z: -0.2746272, w: 0.9615508}
+      scale: {x: 1, y: 0.9999997, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_Toes_Jnt
+      parentName: Male_BasicControlRig:Left_Foot_Jnt
+      position: {x: -0.04131662, y: -0.0000000024448152, z: 0.0000000064611547}
+      rotation: {x: 0.00000001040981, y: 0.00000003499558, z: -0.16681267, w: 0.9859887}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000001}
+    - name: Male_BasicControlRig:Left_FootTip_Jnt
+      parentName: Male_BasicControlRig:Left_Toes_Jnt
+      position: {x: -0.05993839, y: 4.9960034e-18, z: 1.900587e-17}
+      rotation: {x: -0.012620804, y: -0.7069942, z: -0.012620871, w: 0.7069942}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Male_BasicControlRig:Right_UpperLeg_Jnt
+      parentName: Male_BasicControlRig:Hip_Jnt
+      position: {x: -0.046254497, y: 0.011772216, z: 0.057651423}
+      rotation: {x: 0.99785954, y: -0.0653947, z: -0.000000059604645, w: 0.000000059604645}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Male_BasicControlRig:Right_Knee_Jnt
+      parentName: Male_BasicControlRig:Right_UpperLeg_Jnt
+      position: {x: 0.36648503, y: -0.000002215659, z: -0.00000007629869}
+      rotation: {x: 0.000000063212205, y: 0.00000005576418, z: -0.0029220765, w: 0.99999577}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Male_BasicControlRig:Right_Ankle_Jnt
+      parentName: Male_BasicControlRig:Right_Knee_Jnt
+      position: {x: 0.30563438, y: -0.000000019110542, z: 0.000000017226377}
+      rotation: {x: 0.9338259, y: 0.35772783, z: 0.000000044616147, w: 0.0000000027930083}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: Male_BasicControlRig:Right_Foot_Jnt
+      parentName: Male_BasicControlRig:Right_Ankle_Jnt
+      position: {x: 0.08557182, y: 0.00000004690053, z: 0.000000005740955}
+      rotation: {x: 0.000000032704932, y: -0.000000024129402, z: -0.2746272, w: 0.96155083}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Male_BasicControlRig:Right_Toes_Jnt
+      parentName: Male_BasicControlRig:Right_Foot_Jnt
+      position: {x: 0.041316647, y: -0.000000025589069, z: -0.0000000030363485}
+      rotation: {x: -0.000000059769235, y: -0.000000055574304, z: -0.16681258, w: 0.9859886}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.9999998}
+    - name: Male_BasicControlRig:Right_FootTip_Jnt
+      parentName: Male_BasicControlRig:Right_Toes_Jnt
+      position: {x: 0.059938688, y: -0.000000015561508, z: -6.949429e-10}
+      rotation: {x: -0.012620859, y: -0.7069942, z: -0.01262095, w: 0.7069942}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Male_BasicControlRig:HumanIK_Grp
+      parentName: Base Test(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      parentName: Male_BasicControlRig:HumanIK_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_HipsEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.000000019073486, y: 0.7505865, z: 0.010896472}
+      rotation: {x: 3.9388667e-10, y: 2.0205287e-11, z: -0.05122991, w: 0.9986869}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftAnkleEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.0576495, y: 0.08676387, z: -0.045798015}
+      rotation: {x: -4.6118667e-10, y: -0.31570956, z: -0.0000000056957026, w: 0.9488559}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightAnkleEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.057652712, y: 0.07965851, z: -0.046403956}
+      rotation: {x: 9.1144724e-11, y: 0.11882817, z: 0.000000005171483, w: 0.99291486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftWristEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.10549376, y: 0.7868016, z: -0.036857236}
+      rotation: {x: -0.3271282, y: 0.5477553, z: 0.51648486, w: 0.57113457}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightWristEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.1654714, y: 0.70579624, z: 0.01458949}
+      rotation: {x: 0.0005308352, y: -0.08011583, z: -0.7042135, w: 0.70545346}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftKneeEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.05752072, y: 0.39123142, z: -0.019110613}
+      rotation: {x: -0.00040207722, y: -0.19179751, z: -0.01709029, w: 0.98128563}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightKneeEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.057171345, y: 0.37828484, z: 0.018669417}
+      rotation: {x: 0.062947534, y: 0.068138584, z: 0.011187626, w: 0.99562526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftElbowEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.10411396, y: 0.91295385, z: -0.15887298}
+      rotation: {x: -0.23493102, y: 0.2946329, z: 0.6379407, w: 0.67158806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightElbowEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.13274293, y: 0.867956, z: -0.04403821}
+      rotation: {x: -0.110021345, y: -0.1289386, z: -0.62279975, w: 0.76380014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_ChestOriginEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.003233842, y: 0.7820239, z: 0.029783526}
+      rotation: {x: -0.00016042462, y: 0.0031284962, z: -0.020773182, w: 0.99977934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_ChestEndEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.0019124198, y: 1.0537175, z: -0.023424549}
+      rotation: {x: -0.0003495946, y: 0.0068176244, z: 0.015203281, w: 0.9998611}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftFootEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.088410445, y: 0.018306484, z: -0.0046899365}
+      rotation: {x: 3.5575986e-24, y: -0.31570956, z: -1.1620133e-16, w: 0.9488559}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightFootEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.06976825, y: 0.0112010855, z: 0.0034891127}
+      rotation: {x: 1.6593845e-26, y: 0.11882817, z: -1.21597e-16, w: 0.99291486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftShoulderEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.095741846, y: 1.0571402, z: -0.022097155}
+      rotation: {x: 0.26425394, y: -0.25911885, z: 0.61981106, w: 0.69199824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightShoulderEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.09917806, y: 1.0630699, z: -0.024758125}
+      rotation: {x: 0.023964034, y: 0.04363163, z: -0.62173516, w: 0.78164405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_HeadEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -8.066216e-17, y: 1.155871, z: 0.0060747233}
+      rotation: {x: 2.5266077e-16, y: 7.332054e-32, z: -2.220446e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHipEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.057348795, y: 0.75648564, z: 0.010896449}
+      rotation: {x: -0.00017814562, y: -0.0043059327, z: -0.0005898887, w: 0.9999906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHipEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.057348832, y: 0.7446873, z: 0.010896497}
+      rotation: {x: -0.051749047, y: -0.0043684784, z: -0.0003760567, w: 0.9986505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandThumbEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.07668564, y: 0.8135413, z: 0.02352529}
+      rotation: {x: -0.43646723, y: 0.5240413, z: 0.47789258, w: 0.55362064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandIndexEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.091988124, y: 0.7835204, z: 0.077115245}
+      rotation: {x: -0.295378, y: 0.56540287, z: 0.548668, w: 0.5404025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandMiddleEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.09700238, y: 0.7698082, z: 0.078652434}
+      rotation: {x: -0.30759752, y: 0.5589661, z: 0.5362756, w: 0.55258405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandRingEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.10306595, y: 0.7578971, z: 0.0708682}
+      rotation: {x: -0.32137096, y: 0.55114406, z: 0.52247936, w: 0.5656646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandPinkyEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.10748455, y: 0.74892765, z: 0.05661209}
+      rotation: {x: -0.32320985, y: 0.5500303, z: 0.5207591, w: 0.56728476}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandThumbEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.53441525, y: 1.0295203, z: 0.0168902}
+      rotation: {x: -1.3877788e-17, y: -7.285839e-17, z: 4.1633363e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandIndexEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.5841887, y: 1.0604602, z: -0.0013051999}
+      rotation: {x: 8.131516e-20, y: -1.7347235e-18, z: 9.8481344e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandMiddleEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.58816296, y: 1.0615038, z: -0.0153439}
+      rotation: {x: 6.7762636e-21, y: 5.4210114e-19, z: 2.9764142e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandRingEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.582486, y: 1.0617468, z: -0.0297262}
+      rotation: {x: -8.131516e-20, y: -1.7347235e-18, z: 1.987854e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandPinkyEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.57022214, y: 1.060793, z: -0.0420747}
+      rotation: {x: -6.505213e-19, y: -6.938894e-18, z: -1.6971152e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftFootIndexEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.057651386, y: -0.00083663163, z: 0.04369947}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightFootIndexEffector
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: 0.0576514, y: -0.000836632, z: 0.043699495}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_Hips
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Reference
+      position: {x: -0.00488071, y: 0.70313877, z: 0.012615043}
+      rotation: {x: 0.00000002244957, y: -0.0000000011516017, z: -0.05122991, w: 0.9986869}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftUpLeg
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Hips
+      position: {x: -0.057651386, y: 0.04769806, z: -0.0017185938}
+      rotation: {x: 0.000042658277, y: -0.0043094046, z: 0.05064032, w: 0.99870765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftLeg
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftUpLeg
+      position: {x: -0, y: -0.36524367, z: -0.030135611}
+      rotation: {x: -0.0001877121, y: -0.18756755, z: -0.016543718, w: 0.9821124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftFoot
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftLeg
+      position: {x: -0, y: -0.30444744, z: -0.026911672}
+      rotation: {x: 0.0057770787, y: -0.12781306, z: 0.016089277, w: 0.991651}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftToeBase
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftFoot
+      position: {x: -0, y: -0.06845737, z: 0.05134303}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftFootIndex1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftToeBase
+      position: {x: -0, y: -0.014975051, z: 0.03850727}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightUpLeg
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Hips
+      position: {x: 0.0576514, y: 0.047698133, z: -0.0017185449}
+      rotation: {x: -0.051457312, y: -0.0070138425, z: 0.05078522, w: 0.99735844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightLeg
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightUpLeg
+      position: {x: -8.881784e-18, y: -0.36524397, z: -0.0301357}
+      rotation: {x: 0.11440846, y: 0.07184071, z: 0.014798063, w: 0.9907223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightFoot
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightLeg
+      position: {x: -8.881784e-18, y: -0.3044472, z: -0.026911596}
+      rotation: {x: -0.06117212, y: 0.050652526, z: -0.018588303, w: 0.99666786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightToeBase
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightFoot
+      position: {x: -0, y: -0.068457395, z: 0.051342998}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightFootIndex1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightToeBase
+      position: {x: -8.881784e-18, y: -0.014975033, z: 0.038507298}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_Spine
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Hips
+      position: {x: -1.8016378e-17, y: 0.07930137, z: 0.017168343}
+      rotation: {x: -0.00032050905, y: 0.0031161674, z: 0.03047271, w: 0.9995307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_Spine1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Spine
+      position: {x: -1.5009836e-17, y: 0.070308454, z: 0.010628025}
+      rotation: {x: -0.00018918201, y: 0.001839479, z: 0.017988054, w: 0.9998365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_Spine2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Spine1
+      position: {x: -1.2837811e-17, y: 0.07439621, z: -0.003270161}
+      rotation: {x: -0.00018918207, y: 0.0018394802, z: 0.017988052, w: 0.9998365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftShoulder
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Spine2
+      position: {x: -0.032441843, y: 0.1271627, z: -0.060437262}
+      rotation: {x: 0.000000021975758, y: -0.0000000021583468, z: 4.743131e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftArm
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftShoulder
+      position: {x: -0.065072276, y: 0.0063910675, z: 8.881784e-18}
+      rotation: {x: 0.25629398, y: -0.26803485, z: 0.6109153, w: 0.6994664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftForeArm
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftArm
+      position: {x: -0.19860977, y: -0.011026992, z: 0}
+      rotation: {x: 0.007877579, y: 0.69209784, z: 0.008213295, w: 0.721714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftForeArmRoll
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftForeArm
+      position: {x: -0.06974415, y: -0.00047904966, z: 0}
+      rotation: {x: 0.04730205, y: 0.0001471002, z: 0.0000003814527, w: 0.9988806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHand
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftForeArmRoll
+      position: {x: -0.10576504, y: -0.00032928467, z: 0}
+      rotation: {x: 0.06661852, y: 0.28718063, z: 0.0012436424, w: 0.9555563}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandThumb1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHand
+      position: {x: -0.011808624, y: -0.0075370786, z: 0.013422031}
+      rotation: {x: -0.079479866, y: 0.23957889, z: -0.07107834, w: 0.965004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandThumb2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandThumb1
+      position: {x: -0.019724617, y: -0.0040190886, z: 0.015000366}
+      rotation: {x: 0.07443026, y: -0.28749177, z: -0.028020611, w: 0.9544755}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandThumb3
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandThumb2
+      position: {x: -0.031248016, y: -0.009236527, z: 0.011763846}
+      rotation: {x: -0.038354453, y: 0.11780748, z: 0.014439164, w: 0.9921905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandIndex1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHand
+      position: {x: -0.070802994, y: 0.0143815605, z: 0.02244146}
+      rotation: {x: 0.00000005469829, y: 8.389613e-15, z: 0.00000015196852, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandIndex2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandIndex1
+      position: {x: -0.025294036, y: -0.0037215422, z: -0.0003262221}
+      rotation: {x: -0.00043355985, y: -0.0000134507445, z: 0.057417843, w: 0.99835014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandIndex3
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandIndex2
+      position: {x: -0.016458092, y: -0.00051322934, z: -0.00012443408}
+      rotation: {x: -0.000000044878078, y: -0.000000059111333, z: -0.00000004526648, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandMiddle1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHand
+      position: {x: -0.072896495, y: 0.016424637, z: 0.008546663}
+      rotation: {x: 0.00000005469829, y: 8.11119e-15, z: 0.00000015196852, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandMiddle2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandMiddle1
+      position: {x: -0.024585418, y: -0.0037165831, z: -0.00061404106}
+      rotation: {x: 0.000035927922, y: 0.0000027653218, z: 0.03524947, w: 0.99937856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandMiddle3
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandMiddle2
+      position: {x: -0.019047165, y: -0.001517868, z: 0.000019476412}
+      rotation: {x: 3.3310198e-16, y: -0.000000015249729, z: 0.000000025202006, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandRing1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHand
+      position: {x: -0.07150085, y: 0.015062637, z: -0.0058356714}
+      rotation: {x: 0.000000054698294, y: 8.692323e-15, z: 0.00000015196852, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandRing2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandRing1
+      position: {x: -0.023467636, y: -0.0023652648, z: -0.00054208515}
+      rotation: {x: -0.000034520097, y: -0.0000027229562, z: 0.010510654, w: 0.9999448}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandRing3
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandRing2
+      position: {x: -0.015884055, y: -0.0012642669, z: -0.000052480696}
+      rotation: {x: -0.0000000946172, y: 0.00000008099356, z: 0.00000016551634, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandPinky1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHand
+      position: {x: -0.0632547, y: 0.013390656, z: -0.01753655}
+      rotation: {x: 0.000000054698294, y: 8.357522e-15, z: 0.00000015196852, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandPinky2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandPinky1
+      position: {x: -0.02215515, y: -0.0019475555, z: -0.0009018612}
+      rotation: {x: -0.00018784849, y: -0.000013664229, z: 0.0073198886, w: 0.9999732}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandPinky3
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_LeftHandPinky2
+      position: {x: -0.013177986, y: -0.0009640503, z: -0.0003402996}
+      rotation: {x: 3.028714e-16, y: -0.000000015261174, z: 0.000000023952174, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightShoulder
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Spine2
+      position: {x: 0.0324418, y: 0.12716506, z: -0.060437255}
+      rotation: {x: 0, y: -0, z: -6.938894e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightArm
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightShoulder
+      position: {x: 0.0650723, y: 0.0063899993, z: -4.440892e-18}
+      rotation: {x: 0.029136036, y: 0.038149595, z: -0.6333537, w: 0.7723722}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightForeArm
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightArm
+      position: {x: 0.19861054, y: -0.011028213, z: 0}
+      rotation: {x: 0.0030381568, y: -0.21743885, z: -0.013636809, w: 0.97597396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightForeArmRoll
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightForeArm
+      position: {x: 0.06974411, y: -0.00047920225, z: 0}
+      rotation: {x: 0.014823049, y: -0.000046117293, z: -0.0000007783646, w: 0.99989015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHand
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightForeArmRoll
+      position: {x: 0.105765074, y: -0.00032905577, z: -4.440892e-18}
+      rotation: {x: 0.022466667, y: 0.106018476, z: -0.10898878, w: 0.9881178}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandThumb1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHand
+      position: {x: 0.011808967, y: -0.0075372313, z: 0.013422021}
+      rotation: {x: 7.632783e-17, y: -2.4980015e-16, z: -1.5265567e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandThumb2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandThumb1
+      position: {x: 0.01972393, y: -0.004018707, z: 0.015000369}
+      rotation: {x: -1.3183897e-16, y: 9.7144515e-17, z: -3.0531133e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandThumb3
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandThumb2
+      position: {x: 0.031248549, y: -0.009237213, z: 0.011763811}
+      rotation: {x: -5.273559e-16, y: 2.3765712e-16, z: 1.2532989e-31, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandIndex1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHand
+      position: {x: 0.07080276, y: 0.0143815605, z: 0.022441454}
+      rotation: {x: -1.8431437e-18, y: -9.540979e-18, z: 2.1386227e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandIndex2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandIndex1
+      position: {x: 0.025294304, y: -0.003721695, z: -0.000326222}
+      rotation: {x: -1.7347235e-18, y: 8.6736174e-19, z: -2.2260936e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandIndex3
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandIndex2
+      position: {x: 0.016457824, y: -0.0005130768, z: -0.00012442998}
+      rotation: {x: -9.486769e-20, y: -7.372575e-18, z: 2.8932528e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandMiddle1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHand
+      position: {x: 0.07289684, y: 0.01642517, z: 0.008546701}
+      rotation: {x: -2.3852448e-18, y: 1.561251e-17, z: -2.32663e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandMiddle2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandMiddle1
+      position: {x: 0.024585076, y: -0.0037165068, z: -0.0006140995}
+      rotation: {x: 1.0842022e-19, y: 3.2526065e-19, z: 8.947652e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandMiddle3
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandMiddle2
+      position: {x: 0.019047203, y: -0.001518402, z: 0.000019500256}
+      rotation: {x: -1.2908136e-35, y: 4.3368087e-19, z: 2.9764136e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandRing1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHand
+      position: {x: 0.07150127, y: 0.015063248, z: -0.0058357}
+      rotation: {x: -3.469447e-18, y: -3.8163916e-17, z: -9.961107e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandRing2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandRing1
+      position: {x: 0.023467941, y: -0.0023657226, z: -0.0005420995}
+      rotation: {x: 1.6263033e-19, y: 1.7347235e-18, z: -9.390419e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandRing3
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandRing2
+      position: {x: 0.01588295, y: -0.0012641907, z: -0.000052399635}
+      rotation: {x: 2.7105054e-20, y: -2.1684043e-19, z: -4.9511458e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandPinky1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHand
+      position: {x: 0.063254505, y: 0.013390884, z: -0.0175366}
+      rotation: {x: -6.505213e-18, y: 2.7755576e-17, z: 2.9680034e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandPinky2
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandPinky1
+      position: {x: 0.022155609, y: -0.001947403, z: -0.0009017992}
+      rotation: {x: -2.9273459e-18, y: -3.469447e-18, z: -3.0120492e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandPinky3
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_RightHandPinky2
+      position: {x: 0.013178214, y: -0.0009638977, z: -0.0003402996}
+      rotation: {x: 6.505213e-19, y: 1.2143064e-17, z: 4.548567e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_Neck
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Spine2
+      position: {x: -1.6724598e-17, y: 0.14388703, z: -0.044964712}
+      rotation: {x: -2.4980015e-16, y: 1.0979399e-16, z: 1.2749138e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_Neck1
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Neck
+      position: {x: -6.973343e-18, y: 0.032701645, z: 0.0049052415}
+      rotation: {x: 1.9428903e-16, y: 4.293264e-16, z: -3.6585295e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_BasicControlRig:Kamal_Control_Ctrl_Head
+      parentName: Male_BasicControlRig:Kamal_Control_Ctrl_Neck1
+      position: {x: -1.1100193e-17, y: 0.050687484, z: 0.008992942}
+      rotation: {x: 3.0817192e-16, y: 1.6653345e-16, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
