@@ -2,7 +2,7 @@
 
 [CreateAssetMenu(fileName = "New Room Layout", menuName = "ScriptableObjects/Room Layout")]
 
-public class RoomObject : ScriptableObject
+public class RoomLayout : ScriptableObject
 {
     public RoomTileData baseTiles;
     public RoomTileData miscTiles;

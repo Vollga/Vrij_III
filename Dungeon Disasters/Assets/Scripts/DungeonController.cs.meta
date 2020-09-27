@@ -3,7 +3,9 @@ guid: 5902a971187a8fa48954be3dfb4a4708
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - roomSet: {fileID: 11400000, guid: 287cee9bb9a49b04188ca5fc1dd65d3e, type: 2}
+  - tileset: {fileID: 11400000, guid: 682ff269998355e42aef8d6dba1568db, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

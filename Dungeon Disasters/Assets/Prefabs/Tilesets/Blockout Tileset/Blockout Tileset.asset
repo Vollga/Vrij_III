@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: efe777c302164bc489eedf1fcafce316, type: 3}
-  m_Name: Blockout
+  m_Name: Blockout Tileset
   m_EditorClassIdentifier: 
   Floor:
   - {fileID: 3218092935879227733, guid: 498331f06202fa342887c5e0e92b4bcd, type: 3}
   Wall_Straight:
-  - {fileID: 5535126645890968761, guid: 791a6dea9fc7f4040995507cda6af455, type: 3}
+  - {fileID: 5559335889420475016, guid: 2b0978c79cf87a242982568f1d00fba2, type: 3}
   Wall_Corner_Inner:
   - {fileID: 5549132613766933335, guid: 7e35f464f9af5234cb0241e9982a8e21, type: 3}
   Wall_Corner_Outer:

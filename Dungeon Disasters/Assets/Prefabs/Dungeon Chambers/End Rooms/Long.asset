@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b8f65a3ab2ddc044b4a451e864b410a, type: 3}
-  m_Name: Central
+  m_Name: Long
   m_EditorClassIdentifier: 
   baseTiles:
     rows:
@@ -817,6 +817,8 @@ MonoBehaviour:
         rotation: 0
       - tileID: 0
         rotation: 0
+      - tileID: 19
+        rotation: 270
       - tileID: 0
         rotation: 0
       - tileID: 0
@@ -829,43 +831,8 @@ MonoBehaviour:
         rotation: 0
       - tileID: 0
         rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-    - row:
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
+      - tileID: 19
+        rotation: 90
       - tileID: 0
         rotation: 0
       - tileID: 0
@@ -914,6 +881,39 @@ MonoBehaviour:
         rotation: 0
       - tileID: 0
         rotation: 0
+      - tileID: 16
+        rotation: 270
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
+      - tileID: 16
+        rotation: 90
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
+    - row:
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
+      - tileID: 0
+        rotation: 0
       - tileID: 0
         rotation: 0
       - tileID: 0
@@ -949,6 +949,8 @@ MonoBehaviour:
         rotation: 0
       - tileID: 0
         rotation: 0
+      - tileID: 19
+        rotation: 270
       - tileID: 0
         rotation: 0
       - tileID: 0
@@ -961,10 +963,8 @@ MonoBehaviour:
         rotation: 0
       - tileID: 0
         rotation: 0
-      - tileID: 0
-        rotation: 0
-      - tileID: 0
-        rotation: 0
+      - tileID: 19
+        rotation: 90
       - tileID: 0
         rotation: 0
       - tileID: 0

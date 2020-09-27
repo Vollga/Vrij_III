@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 [CreateAssetMenu(fileName ="New Tileset",menuName = "ScriptableObjects/Tileset")]
@@ -112,12 +113,12 @@ public class Tileset : ScriptableObject
             case TileID.Portal:
                 return Portal[Random.Range(0, Portal.Length)];
 
+            default:
+                return Void[Random.Range(0, Void.Length)];
         }
-
-        return null;
     }
 
-
+    /*
         //Voids
     public GameObject GetVoid()
     {
@@ -220,5 +221,6 @@ public class Tileset : ScriptableObject
     {
         return Portal[Random.Range(0, Portal.Length)];
     }
+    */
 
 }
