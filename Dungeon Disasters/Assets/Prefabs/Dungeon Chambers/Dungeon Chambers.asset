@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5959cad0783142c47bb33c35c94ac53a, type: 3}
+  m_Name: Dungeon Chambers
+  m_EditorClassIdentifier: 
+  Entrance:
+  - {fileID: 4851053201267728973, guid: 512876bf55003ce47b789b6535aa389e, type: 3}
+  BossUp:
+  - {fileID: 4851053201267728973, guid: 876bfc870b3e3f545a8603483f6044ca, type: 3}
+  - {fileID: 4851053201267728973, guid: b2f0901d16a57b649b3be75840ad758c, type: 3}
+  BossRight:
+  - {fileID: 4851053201267728973, guid: cbf619e3631f1434a81331641e7e5981, type: 3}
+  - {fileID: 4851053201267728973, guid: b8bb86a4459594f439f6f77fa7efc362, type: 3}
+  BossDown:
+  - {fileID: 4851053201267728973, guid: dd1ff558885d43346a9348f141da765b, type: 3}
+  - {fileID: 4851053201267728973, guid: 128d5650f3eb9c64f98f2196c11b9350, type: 3}
+  BossLeft:
+  - {fileID: 4851053201267728973, guid: 164b9ce3a4b625f458186b83694c1c71, type: 3}
+  - {fileID: 4851053201267728973, guid: ac95f289b2998c747a0ce94461dafe8b, type: 3}
+  EndUp:
+  - {fileID: 4851053201267728973, guid: bb847fe506708b746b312d3e2b54be58, type: 3}
+  EndRight:
+  - {fileID: 4851053201267728973, guid: 98e5efd4a4efbac47bf9303bd7200020, type: 3}
+  EndDown:
+  - {fileID: 4851053201267728973, guid: af2161ddc0092de4f9ca384cd582bc29, type: 3}
+  EndLeft:
+  - {fileID: 4851053201267728973, guid: 988ac1a5a382abf4ab35e39b19d70ffe, type: 3}
+  CorridorHorizontal:
+  - {fileID: 4851053201267728973, guid: f241f598af5dc3748927c77acbac76e0, type: 3}
+  CorridorVertical:
+  - {fileID: 4851053201267728973, guid: 3cf3aa7031d110e41a51d01ac04c1d2d, type: 3}
+  CornerUpRight:
+  - {fileID: 4851053201267728973, guid: 82973e6981986634bb5dd938d8394925, type: 3}
+  CornerUpLeft:
+  - {fileID: 4851053201267728973, guid: 23d8f978c5d3ff64ca6bb724e23673ce, type: 3}
+  CornerDownRight:
+  - {fileID: 4851053201267728973, guid: 6fe73e2fb769101469e397e1fc35e137, type: 3}
+  CornerDownLeft:
+  - {fileID: 4851053201267728973, guid: ae9a1e2a5a59b1e42b4ee8ecb1047857, type: 3}
+  TUp:
+  - {fileID: 4851053201267728973, guid: 3e3e65389cd3c3a4e9d4ec9213230fa7, type: 3}
+  TRight:
+  - {fileID: 4851053201267728973, guid: 4875f235f34d5104abb6859d35c7928c, type: 3}
+  TDown:
+  - {fileID: 4851053201267728973, guid: 25e10e6c9ffb3b443b415258c267f64b, type: 3}
+  TLeft:
+  - {fileID: 4851053201267728973, guid: deba95a9ab9ac4e439702c68d113cc11, type: 3}
+  Center:
+  - {fileID: 4851053201267728973, guid: ae35a67f6dad7b04bbbbdce1e6a5d219, type: 3}
+  - {fileID: 4851053201267728973, guid: d2a086e4d118fbb4aaa44961fef9d1ff, type: 3}
+  - {fileID: 4851053201267728973, guid: 2eabe30faa0755f419c8d1a72e46c420, type: 3}
+  - {fileID: 4851053201267728973, guid: 99c04f27a6ca54e40b217aadbec34305, type: 3}
+  - {fileID: 4851053201267728973, guid: b4901592542cb4c4d91c4169012ca20f, type: 3}
+  - {fileID: 4851053201267728973, guid: c5478907d45e17143bff51a657ff2d4c, type: 3}
+  - {fileID: 4851053201267728973, guid: f1b6883b7741d114aa768ec25c677c58, type: 3}
+  ErrorRoom: {fileID: 0}

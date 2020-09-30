@@ -7,6 +7,7 @@ public class TileController : MonoBehaviour
     public TileID ID;
     TilePoolManager poolManager;
 
+
     private void Awake()
     {
         this.GetComponent<MeshRenderer>().enabled = false;
@@ -17,5 +18,4 @@ public class TileController : MonoBehaviour
     {
         poolManager.GetTile(ID, this.transform);
     }
-
 }

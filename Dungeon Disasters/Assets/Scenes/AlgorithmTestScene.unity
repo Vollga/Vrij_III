@@ -1262,6 +1262,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[21].size
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5277866706110872132, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
       propertyPath: m_Name
       value: Dungeon Controller
@@ -1314,5 +1318,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872135, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: roomSet
+      value: 
+      objectReference: {fileID: 11400000, guid: b76fd3e3f3a62e042a5e854202c7776b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
