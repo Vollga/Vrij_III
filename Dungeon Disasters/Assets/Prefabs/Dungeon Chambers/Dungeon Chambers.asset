@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Entrance:
   - {fileID: 4851053201267728973, guid: 512876bf55003ce47b789b6535aa389e, type: 3}
+  - {fileID: 4851053201267728973, guid: 36397d7c8a1ba9f4d8d86296744f31c1, type: 3}
   BossUp:
   - {fileID: 4851053201267728973, guid: 876bfc870b3e3f545a8603483f6044ca, type: 3}
   - {fileID: 4851053201267728973, guid: b2f0901d16a57b649b3be75840ad758c, type: 3}
@@ -28,32 +29,46 @@ MonoBehaviour:
   - {fileID: 4851053201267728973, guid: ac95f289b2998c747a0ce94461dafe8b, type: 3}
   EndUp:
   - {fileID: 4851053201267728973, guid: bb847fe506708b746b312d3e2b54be58, type: 3}
+  - {fileID: 4851053201267728973, guid: 92810231048f88e4f9a5e8d4f87dc46a, type: 3}
   EndRight:
   - {fileID: 4851053201267728973, guid: 98e5efd4a4efbac47bf9303bd7200020, type: 3}
+  - {fileID: 4851053201267728973, guid: 83b1b2ccb041b8c4cbd09cd15baf4c39, type: 3}
   EndDown:
   - {fileID: 4851053201267728973, guid: af2161ddc0092de4f9ca384cd582bc29, type: 3}
+  - {fileID: 4851053201267728973, guid: 1f3993ed2c5f25d4884af1239a112380, type: 3}
   EndLeft:
   - {fileID: 4851053201267728973, guid: 988ac1a5a382abf4ab35e39b19d70ffe, type: 3}
+  - {fileID: 4851053201267728973, guid: eb8444e6648e97a4cb25813bc48f5575, type: 3}
   CorridorHorizontal:
   - {fileID: 4851053201267728973, guid: f241f598af5dc3748927c77acbac76e0, type: 3}
+  - {fileID: 4851053201267728973, guid: 7c676446edf6e8b4780dd0ff49705568, type: 3}
   CorridorVertical:
   - {fileID: 4851053201267728973, guid: 3cf3aa7031d110e41a51d01ac04c1d2d, type: 3}
+  - {fileID: 4851053201267728973, guid: 15a869c1ee8d1c34ca29563a023c76cf, type: 3}
   CornerUpRight:
   - {fileID: 4851053201267728973, guid: 82973e6981986634bb5dd938d8394925, type: 3}
+  - {fileID: 4851053201267728973, guid: 4335e0b3211a9cd4b8a8e0213cf9a3fd, type: 3}
   CornerUpLeft:
   - {fileID: 4851053201267728973, guid: 23d8f978c5d3ff64ca6bb724e23673ce, type: 3}
+  - {fileID: 4851053201267728973, guid: 2dcb1e4f6f90036458d392e09aa87cd0, type: 3}
   CornerDownRight:
   - {fileID: 4851053201267728973, guid: 6fe73e2fb769101469e397e1fc35e137, type: 3}
+  - {fileID: 4851053201267728973, guid: 6458c753a2f566248b181a099cc5a660, type: 3}
   CornerDownLeft:
   - {fileID: 4851053201267728973, guid: ae9a1e2a5a59b1e42b4ee8ecb1047857, type: 3}
+  - {fileID: 4851053201267728973, guid: f423bc0ba7cff1940860763f39b23d90, type: 3}
   TUp:
   - {fileID: 4851053201267728973, guid: 3e3e65389cd3c3a4e9d4ec9213230fa7, type: 3}
+  - {fileID: 4851053201267728973, guid: 73b4bf6e0549e644d86fb6aaaf01980c, type: 3}
   TRight:
   - {fileID: 4851053201267728973, guid: 4875f235f34d5104abb6859d35c7928c, type: 3}
+  - {fileID: 4851053201267728973, guid: 1297cf6c7694bac419b29f4ccc530df2, type: 3}
   TDown:
   - {fileID: 4851053201267728973, guid: 25e10e6c9ffb3b443b415258c267f64b, type: 3}
+  - {fileID: 4851053201267728973, guid: f2ab3f0d08be3d04f8606487174fca3f, type: 3}
   TLeft:
   - {fileID: 4851053201267728973, guid: deba95a9ab9ac4e439702c68d113cc11, type: 3}
+  - {fileID: 4851053201267728973, guid: 0014e24656f42bf40b694f42826d1e4b, type: 3}
   Center:
   - {fileID: 4851053201267728973, guid: ae35a67f6dad7b04bbbbdce1e6a5d219, type: 3}
   - {fileID: 4851053201267728973, guid: d2a086e4d118fbb4aaa44961fef9d1ff, type: 3}
