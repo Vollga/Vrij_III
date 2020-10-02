@@ -1268,7 +1268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
       propertyPath: _debugMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5277866706110872132, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
       propertyPath: m_Name
@@ -1326,5 +1326,9 @@ PrefabInstance:
       propertyPath: roomSet
       value: 
       objectReference: {fileID: 11400000, guid: b76fd3e3f3a62e042a5e854202c7776b, type: 2}
+    - target: {fileID: 5277866706110872135, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: seed
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}

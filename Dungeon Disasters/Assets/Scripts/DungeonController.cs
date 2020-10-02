@@ -33,11 +33,6 @@ public class DungeonController : MonoBehaviour
 
     void Awake()
     {
-        print(3 / 10);
-        print(5 / 10);
-        print(6 / 10);
-        print(89 / 10);
-        print(9 * 10+9);
         this.GetComponent<TilePoolManager>().InitialGenerate(tileset[currentTileset]);
     }
     

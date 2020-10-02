@@ -127,7 +127,6 @@ public class RoomGridFunctions : MonoBehaviour
 
     public static RoomGrid SetAsset(RoomGrid room, DungeonDict roomSet)
     {
-        Random.seed = (int)System.DateTime.Now.Ticks;
         switch (room.ID)
         {
             case 0:     // Room is Normal
