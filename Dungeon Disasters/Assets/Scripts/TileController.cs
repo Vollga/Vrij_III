@@ -10,8 +10,11 @@ public class TileController : MonoBehaviour
 
     private void Awake()
     {
-        //this.GetComponent<MeshRenderer>().enabled = false;
         poolManager = TilePoolManager.Instance;
+        if (!poolManager._debugMode)
+        {
+            this.GetComponent<MeshRenderer>().enabled = false;
+        }
     }
 
     void OnEnable()

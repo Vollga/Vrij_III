@@ -46,7 +46,6 @@ public class RoomGridFunctions : MonoBehaviour
                         print("Room " + iX + "," + iZ + " has a neighbor to the left");
                     }
                 }
-
                 // Assign matching prefab from set
                 dungeon[iX, iZ] = SetAsset(dungeon[iX, iZ], roomSet);
             }
@@ -128,6 +127,7 @@ public class RoomGridFunctions : MonoBehaviour
 
     public static RoomGrid SetAsset(RoomGrid room, DungeonDict roomSet)
     {
+        Random.seed = (int)System.DateTime.Now.Ticks;
         switch (room.ID)
         {
             case 0:     // Room is Normal
