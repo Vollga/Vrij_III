@@ -66,11 +66,26 @@ public class KernController : MonoBehaviour
 
         if ((animationsPivot.gameObject.transform.eulerAngles.y > 110.0f)&&(animationsPivot.gameObject.transform.eulerAngles.y < 130.0f))
         {
+            //print("smash");
             anticipationAnimator.GetComponent<AudioSource>().mute = false;
+            introAnimator.GetComponent<AudioSource>().mute = true;
+            blendAnimator.GetComponent<AudioSource>().mute = true;
         }
-        else
+        else if ((animationsPivot.gameObject.transform.eulerAngles.y > -10.0f) && (animationsPivot.gameObject.transform.eulerAngles.y < 10.0f))
         {
-            anticipationAnimator.GetComponent<AudioSource>().mute = true ;
+            //print("intro");
+
+            anticipationAnimator.GetComponent<AudioSource>().mute = true;
+            introAnimator.GetComponent<AudioSource>().mute = false;
+            blendAnimator.GetComponent<AudioSource>().mute = true;
+        }
+        else if ((animationsPivot.gameObject.transform.eulerAngles.y > 230.0f) && (animationsPivot.gameObject.transform.eulerAngles.y < 250.0f))
+        {
+            //print("blend");
+
+            anticipationAnimator.GetComponent<AudioSource>().mute = true;
+            introAnimator.GetComponent<AudioSource>().mute = true;
+            blendAnimator.GetComponent<AudioSource>().mute = false;
         }
     }
 
