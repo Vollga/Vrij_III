@@ -10,12 +10,15 @@ public class KernController : MonoBehaviour
     public Animator blendAnimator;
     public Animator introAnimator;
     public Animator anticipationAnimator;
+    public Camera cam;
 
     public float speedH = 2.0f;
     public float speedV = 2.0f;
+    public float speedS = 3.0f;
 
     private float yaw = 0.0f;
     private float pitch = 0.0f;
+    private Vector3 zoom;
 
     private bool _paused = false;
 
@@ -27,6 +30,11 @@ public class KernController : MonoBehaviour
 
     void Update()
     {
+        zoom = cam.transform.localPosition;
+        zoom.z -= speedS * Input.GetAxis("Mouse ScrollWheel");
+        zoom.z = Mathf.Clamp(zoom.z, 2f, 4.5f);
+        cam.transform.localPosition = zoom;
+
         yaw += speedH * Input.GetAxis("Mouse X");
         pitch += speedV * Input.GetAxis("Mouse Y");
 
@@ -36,25 +44,33 @@ public class KernController : MonoBehaviour
         {
             animationsPivot.SetTrigger("toRight");
         }
-        if (Input.GetKeyDown("a") | Input.GetKeyDown(KeyCode.LeftArrow))
+        else if (Input.GetKeyDown("a") | Input.GetKeyDown(KeyCode.LeftArrow))
         {
             animationsPivot.SetTrigger("toLeft");
         }
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        else if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             blendAnimator.SetTrigger("DoAction");
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        else if (Input.GetKeyDown(KeyCode.Space))
         {
             _paused = !_paused;
             introAnimator.enabled = _paused;
             blendAnimator.enabled = _paused;
             anticipationAnimator.enabled = _paused;
         }
-
-        if (Input.GetKeyDown(KeyCode.Escape))
+        else if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
+        }
+
+        if ((animationsPivot.gameObject.transform.eulerAngles.y > 110.0f)&&(animationsPivot.gameObject.transform.eulerAngles.y < 130.0f))
+        {
+            anticipationAnimator.GetComponent<AudioSource>().mute = false;
+        }
+        else
+        {
+            anticipationAnimator.GetComponent<AudioSource>().mute = true ;
         }
     }
 

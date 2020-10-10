@@ -33,7 +33,8 @@ ModelImporter:
       Activate translation DOF on avatar to improve retargeting quality.\n\t'Male_BasicControlRig:Neck2_Jnt'
       is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Male_BasicControlRig:Left_Eblow_Jnt'
       has translation animation that will be discarded.\n\t'Male_BasicControlRig:Left_ForeArm_Jnt'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Male_BasicControlRig:Right_ForeArm_Jnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Male_BasicControlRig:Right_Eblow_Jnt'
+      has translation animation that will be discarded.\n\t'Male_BasicControlRig:Right_ForeArm_Jnt'
       is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Male_BasicControlRig:Left_Knee_Jnt'
       has translation animation that will be discarded.\n\t'Male_BasicControlRig:Right_Knee_Jnt'
       has translation animation that will be discarded.\n"
@@ -83,7 +84,7 @@ ModelImporter:
       takeName: Blend_Stab
       internalID: 0
       firstFrame: 200
-      lastFrame: 290
+      lastFrame: 285
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
