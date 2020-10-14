@@ -118,9 +118,9 @@ public class MapGenerate : MonoBehaviour
                     dungeon[iX, iZ].Enable();
                     dungeon[iX, iZ].ID = 1;     // Set ID to "Entrance"
                     startIsPlaced = true;
+                    DungeonController.Instance.startPosition = new Vector3(iX, 0,iZ);
                     break;
                 }
-
             }
             if (startIsPlaced)
             {

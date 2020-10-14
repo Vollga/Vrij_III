@@ -6,7 +6,11 @@ public class RoomController : MonoBehaviour
 {
     public GameObject tileGroup;
     // Start is called before the first frame update
-   
+
+    private void Awake()
+    {
+        tileGroup.SetActive(false);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -22,7 +26,6 @@ public class RoomController : MonoBehaviour
         {
             tileGroup.SetActive(false);
             print("Disabled Room");
-
         }
     }
 }

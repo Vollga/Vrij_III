@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4029823826588015415}
   - component: {fileID: 6132258556438658085}
   - component: {fileID: 349867239850958818}
+  - component: {fileID: 8533486895447414538}
   m_Layer: 0
   m_Name: Raised Floor
   m_TagString: Untagged
@@ -95,3 +96,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8533486895447414538
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6688774956991403292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 1.4999974, z: 3}
+  m_Center: {x: 0, y: 0.24999872, z: 0}

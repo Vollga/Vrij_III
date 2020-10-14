@@ -54,13 +54,13 @@ public class DungeonSpawner : MonoBehaviour
             {
                 if (dungeon[iX, iZ].isEnabled == true)
                 {
-                    var newRoom = Instantiate(dungeon[iX, iZ].roomAsset ,new Vector3((iX - (dungeon.GetLength(0) / 2) + spawnOffset.x) * roomSize, 0, (iZ - (dungeon.GetLength(1) / 2) + spawnOffset.z) * roomSize), Quaternion.identity);
+                    var newRoom = Instantiate(dungeon[iX, iZ].roomAsset ,new Vector3((iX + spawnOffset.x) * roomSize, 0, (iZ + spawnOffset.z) * roomSize), Quaternion.identity);
                     newRoom.transform.parent = parentTransform;
                     roomsList.Add(newRoom);
                 }
                 else if (fillEmpty == true)
                 {
-                    var newRoom = Instantiate(emptyTile, new Vector3((iX - (dungeon.GetLength(0) / 2) + spawnOffset.x) * roomSize, 0, (iZ - (dungeon.GetLength(1) / 2) + spawnOffset.z) * roomSize), Quaternion.identity);
+                    var newRoom = Instantiate(emptyTile, new Vector3((iX + spawnOffset.x) * roomSize, 0, (iZ + spawnOffset.z) * roomSize), Quaternion.identity);
                     newRoom.transform.parent = emptySquares.transform;
                     roomsList.Add(newRoom);
                 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9048764016160046899}
   - component: {fileID: 163476302221755281}
   - component: {fileID: 3765257411090001298}
+  - component: {fileID: -561204359002083094}
   m_Layer: 0
   m_Name: Pit Corner Inner
   m_TagString: Untagged
@@ -95,3 +96,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-561204359002083094
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7995091188235415498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 4.891962, z: 3}
+  m_Center: {x: 0, y: -1.054019, z: 0}

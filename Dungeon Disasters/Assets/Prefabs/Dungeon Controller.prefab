@@ -576,7 +576,7 @@ GameObject:
   m_Layer: 0
   m_Name: Dungeon Controller
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2800000, guid: 188dfe7e559f13248ba2c41eb5a59328, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -607,7 +607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5902a971187a8fa48954be3dfb4a4708, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomSet: {fileID: 11400000, guid: 287cee9bb9a49b04188ca5fc1dd65d3e, type: 2}
+  roomSet: {fileID: 11400000, guid: b76fd3e3f3a62e042a5e854202c7776b, type: 2}
   gridSize: 16
   tileSize: 3
   roomSize: 16
@@ -617,6 +617,7 @@ MonoBehaviour:
   runners: 3
   maxDistance: 12
   runnersKnowDirection: 1
+  startPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &5277866706110872129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -629,11 +630,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec103091dabca1a4b8fa2d23054e2a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _debugMode: 0
   tilePools:
   - ID: 0
     size: 200
   - ID: 1
-    size: 200
+    size: 300
   - ID: 2
     size: 8
   - ID: 3
@@ -673,7 +675,7 @@ MonoBehaviour:
   - ID: 20
     size: 20
   - ID: 21
-    size: 2
+    size: 8
 --- !u!1 &5277866706117446686
 GameObject:
   m_ObjectHideFlags: 0

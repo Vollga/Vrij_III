@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -238446318854191874}
   - component: {fileID: 5714380465346963721}
   - component: {fileID: 8193684955276384768}
+  - component: {fileID: 2411501548139617347}
   m_Layer: 0
   m_Name: Raised Wall
   m_TagString: Untagged
@@ -95,3 +96,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2411501548139617347
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5259394705260108208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2223102687895661034, guid: 78f6afa6ff390bb458fbb6d417b146ab, type: 3}

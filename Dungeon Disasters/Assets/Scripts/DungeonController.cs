@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class DungeonController : MonoBehaviour
 {
+    #region Singleton
+    public static DungeonController Instance;
+    #endregion
+    
     // Public variables
     [Header("Map Setup")]
     public DungeonDict roomSet;
@@ -30,12 +34,22 @@ public class DungeonController : MonoBehaviour
     public RoomGrid[,] dungeon;
     List<GameObject> roomsList = new List<GameObject>();
 
+    [HideInInspector]
+    public Vector3 startPosition = Vector2.zero;
+
 
     void Awake()
     {
+        Instance = this;
         this.GetComponent<TilePoolManager>().InitialGenerate(tileset[currentTileset]);
     }
-    
+
+    private void Start()
+    {
+        InitialiseDungeon();
+    }
+
+
     // Update is called once per frame
     void Update()
     {
@@ -48,8 +62,13 @@ public class DungeonController : MonoBehaviour
             roomsList.Clear();
             InitialiseDungeon();
             print("This dungeon has " + roomsList.Count + " rooms.");
+
+            GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>().enabled = false;
+            GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(0, 30, 0);
+            GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>().enabled = true;
+
         }
-        
+
     }
 
     void InitialiseDungeon()
@@ -93,7 +112,7 @@ public class DungeonController : MonoBehaviour
 
         // Place Placeholders
 
-        roomsList = DungeonSpawner.DrawLayout(dungeon, this.transform.position, sizemultiplier, this.transform, false, null);
+        roomsList = DungeonSpawner.DrawLayout(dungeon, startPosition*-1, sizemultiplier, this.transform, false, roomSet.ErrorRoom);
 
     }
 

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8953121093932569419}
   - component: {fileID: 4858807711904351350}
   - component: {fileID: 7131902818168693994}
+  - component: {fileID: 909057486816681148}
   m_Layer: 0
   m_Name: Misc Portal
   m_TagString: Untagged
@@ -95,3 +96,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &909057486816681148
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8302032749871696131}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1141062, y: 0.090317026, z: 2.1141062}
+  m_Center: {x: 0, y: 0.021571182, z: 0}
