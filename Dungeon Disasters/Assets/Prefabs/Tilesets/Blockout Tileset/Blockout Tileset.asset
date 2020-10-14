@@ -13,46 +13,46 @@ MonoBehaviour:
   m_Name: Blockout Tileset
   m_EditorClassIdentifier: 
   Floor:
-  - {fileID: 3218092935879227733, guid: 498331f06202fa342887c5e0e92b4bcd, type: 3}
+  - {fileID: 3218092935879227733, guid: 09b3785a6ef10e04e80176808747d520, type: 3}
   Wall_Straight:
-  - {fileID: 5559335889420475016, guid: 2b0978c79cf87a242982568f1d00fba2, type: 3}
+  - {fileID: 5559335889420475016, guid: 345f9c08ac368e340b57b9bac7288dfe, type: 3}
   Wall_Corner_Inner:
-  - {fileID: 5549132613766933335, guid: 7e35f464f9af5234cb0241e9982a8e21, type: 3}
+  - {fileID: 5549132613766933335, guid: 6731318858778634a91a8d344fb38474, type: 3}
   Wall_Corner_Outer:
-  - {fileID: 6132975679884494907, guid: f1a027cc99f2f56439e0ed49c17509a0, type: 3}
+  - {fileID: 6132975679884494907, guid: 5d2efde596495c540aa0c3fa6c4d744c, type: 3}
   Door:
-  - {fileID: 5042527867595839280, guid: 97d0bd7ba95ed1140a85b1bd57d51934, type: 3}
+  - {fileID: 5042527867595839280, guid: 8541b2227e1bad64dad3ded354b912de, type: 3}
   Pit_Bottom:
-  - {fileID: 6602624715624393375, guid: dc90fee4a07f4214185043bdcb4376c5, type: 3}
+  - {fileID: 6602624715624393375, guid: c84b71d5f48b1e04aa3a2a4b541139a5, type: 3}
   Pit_Wall:
-  - {fileID: 5535126645890968761, guid: 791a6dea9fc7f4040995507cda6af455, type: 3}
+  - {fileID: 5535126645890968761, guid: e8ef5c7e3134e664c96578c3d6ea371b, type: 3}
   Pit_Corner_Inner:
-  - {fileID: 7995091188235415498, guid: 9c600a6ec5766f54f98599ae0086c370, type: 3}
+  - {fileID: 7995091188235415498, guid: 786963f07179c2942acc865f5f232476, type: 3}
   Pit_Corner_Outer:
-  - {fileID: 9175849265262954891, guid: e6ebb6e3d0bd57e47be31ace411b131f, type: 3}
+  - {fileID: 9175849265262954891, guid: dc7f8e7900c232c49acd68390f01e4e3, type: 3}
   Raised_Floor:
-  - {fileID: 6688774956991403292, guid: 0a1eb5fcc2473e9418584e2ae4b644c2, type: 3}
+  - {fileID: 6688774956991403292, guid: 2c65589cc1a9bbf43b41f7252c1993c3, type: 3}
   Raised_Stairs:
-  - {fileID: 1215511729951335346, guid: 5ca6115aff395ad499bcf19ced7c203d, type: 3}
+  - {fileID: 1215511729951335346, guid: 09f983ea5f596b9449565421effffcbd, type: 3}
   Raised_Wall:
-  - {fileID: 5259394705260108208, guid: 29496adfc4ee1a748a2f134b6ac1dd41, type: 3}
+  - {fileID: 5259394705260108208, guid: de0a42812ee8ce241b215d7df7676870, type: 3}
   Raised_Corner_Inner:
-  - {fileID: 9181281002131473113, guid: 8e3bc19ca8928d04c9950fa544f858d8, type: 3}
+  - {fileID: 9181281002131473113, guid: b3f19a92d0cfd1a4ea8b7719f60aca57, type: 3}
   Raised_Corner_Outer:
-  - {fileID: 2691308352073491924, guid: d61383547960ac046a7b0a217b01b08b, type: 3}
+  - {fileID: 2691308352073491924, guid: 22be22d6dd4fb3f4e8a7363c147691eb, type: 3}
   Raised_Corner_Double:
-  - {fileID: 1886223727877679797, guid: 8071edb663875c14aa12d5e7eec5905e, type: 3}
+  - {fileID: 1886223727877679797, guid: 831b22096ef0f2f409bb944f4935fcec, type: 3}
   Chest:
-  - {fileID: 4122610684504613643, guid: c8176e0f42624bf4c841d485838890f0, type: 3}
+  - {fileID: 4122610684504613643, guid: 41ea7135bc5958d4e896d295a5897621, type: 3}
   Switch:
-  - {fileID: 6829695442273076948, guid: f2443a4d2384ac247aa8085e7abe9e0e, type: 3}
+  - {fileID: 6829695442273076948, guid: 266adeb16cfbbe442a1091a7202eb10c, type: 3}
   Pillar:
-  - {fileID: 6248485705081740367, guid: bd0a09ee2b93ddd4aaff507b53de3c5c, type: 3}
+  - {fileID: 6248485705081740367, guid: 3fb96b608842c98448c5a9e7213fff27, type: 3}
   Statue:
-  - {fileID: 9106970553572125702, guid: c4937464fc2d67e45b2d82e77ffabccd, type: 3}
+  - {fileID: 9106970553572125702, guid: ddad2678e6ba38e4099c7d524f166867, type: 3}
   Clutter:
-  - {fileID: 1999894403150743897, guid: e5176683429e2364d82a9639f40e6f3e, type: 3}
+  - {fileID: 1999894403150743897, guid: e0aa9ef7636e80044a962160d76fabdb, type: 3}
   Portal:
-  - {fileID: 8302032749871696131, guid: cf0aaa971e59f10489fa4d2c86b83573, type: 3}
+  - {fileID: 8302032749871696131, guid: 77e24e988c83616408524fbabd157e54, type: 3}
   Void:
-  - {fileID: 6602624715624393375, guid: 4a14284b576ad3048979aeffb7d83f3f, type: 3}
+  - {fileID: 6602624715624393375, guid: 8a412f5522c0aea439ad1bd6e1bc19f0, type: 3}

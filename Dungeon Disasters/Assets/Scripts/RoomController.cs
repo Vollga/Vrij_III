@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class RoomController : MonoBehaviour
@@ -7,7 +8,7 @@ public class RoomController : MonoBehaviour
     public GameObject tileGroup;
     // Start is called before the first frame update
 
-    private void Awake()
+    private void Start()
     {
         tileGroup.SetActive(false);
     }

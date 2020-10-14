@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8912864476861107916}
   - component: {fileID: 192465465765304099}
   - component: {fileID: 6716137784099229535}
-  - component: {fileID: 3433886594373977729}
   m_Layer: 0
   m_Name: Raised Corner Double
   m_TagString: Untagged
@@ -96,17 +95,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3433886594373977729
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886223727877679797}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 591119411986447294, guid: 78f6afa6ff390bb458fbb6d417b146ab, type: 3}
