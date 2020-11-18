@@ -47,7 +47,10 @@ MonoBehaviour:
   Switch:
   - {fileID: 6829695442273076948, guid: 266adeb16cfbbe442a1091a7202eb10c, type: 3}
   Pillar:
-  - {fileID: 6248485705081740367, guid: 3fb96b608842c98448c5a9e7213fff27, type: 3}
+  - {fileID: 1352580361002845698, guid: 8206929a9f5b22c4394b7e1ed4a4337b, type: 3}
+  - {fileID: 1352580361002845698, guid: e96e8ccc2269ab34389f120ba48fb441, type: 3}
+  - {fileID: 1352580361002845698, guid: 3dd1c9c7cb6985844b18885d7284fccd, type: 3}
+  - {fileID: 1352580361002845698, guid: f6294b619b767da4cabd443d03b4c087, type: 3}
   Statue:
   - {fileID: 9106970553572125702, guid: ddad2678e6ba38e4099c7d524f166867, type: 3}
   Clutter:

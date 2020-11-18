@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &105003789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,14 +223,14 @@ MonoBehaviour:
   m_ShadowFadeDistance: 10000
   m_UseContactShadow:
     m_Override: 0
-    m_UseOverride: 1
+    m_UseOverride: 0
     m_Level: 2
   m_RayTracedContactShadow: 0
   m_ShadowTint: {r: 0, g: 0, b: 0, a: 1}
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 2
   m_BarnDoorAngle: 90
   m_BarnDoorLength: 0.05
   m_ShadowCascadeRatios:
@@ -1063,7 +1063,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1396527224, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1463269531123194998, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_Name
@@ -1374,6 +1374,10 @@ PrefabInstance:
     - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
       propertyPath: _debugMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[7].size
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 5277866706110872132, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
       propertyPath: m_Name
