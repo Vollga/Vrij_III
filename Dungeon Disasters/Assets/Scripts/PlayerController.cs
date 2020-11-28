@@ -29,13 +29,13 @@ public class PlayerController : MonoBehaviour
             if (moveDirection != Vector3.zero)
             {
                 playerAnimator.SetBool("walking", true);
-                print("walking");
+                //print("walking");
             }
             else
             {
                 playerAnimator.SetBool("walking", false);
             }
-            print((int)moveDirection.normalized.x + ", " + (int)moveDirection.normalized.z);            
+            //print((int)moveDirection.normalized.x + ", " + (int)moveDirection.normalized.z);            
             moveDirection = Vector3.ClampMagnitude(moveDirection, 1.0f);
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= speed;

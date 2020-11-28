@@ -8,7 +8,7 @@ public class MapGenerate : MonoBehaviour
     {
         // Set given position as true
         dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y].Enable();
-        print("Map Array Entry " + (int)runnerPosCurrent.x + "," + (int)runnerPosCurrent.y + " has been set to: " + dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y]);
+        //print("Map Array Entry " + (int)runnerPosCurrent.x + "," + (int)runnerPosCurrent.y + " has been set to: " + dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y]);
 
         Vector2 runnerPosNext = runnerPosCurrent;
 
@@ -21,11 +21,11 @@ public class MapGenerate : MonoBehaviour
         {
             if ((runnerPosNext.x >= dungeon.GetLength(0) - 1) | (runnerPosNext.y >= dungeon.GetLength(1) - 1) | (runnerPosNext.x < 1) | (runnerPosNext.y < 1))
             {
-                print("Whoops! Out of bounds");
+                //print("Whoops! Out of bounds");
             }
             else
             {
-                print((runnerDistance - 1) + " steps to go");
+                //print((runnerDistance - 1) + " steps to go");
                 dungeon = RunnerBasic(dungeon, runnerPosNext, runnerDistance - 1);
             }
         }
@@ -37,7 +37,7 @@ public class MapGenerate : MonoBehaviour
     {
         // Set given position as true
         dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y].Enable();
-        print("Map Array Entry " + (int)runnerPosCurrent.x + "," + (int)runnerPosCurrent.y + " has been set to: " + dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y]);
+        //print("Map Array Entry " + (int)runnerPosCurrent.x + "," + (int)runnerPosCurrent.y + " has been set to: " + dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y]);
 
         Vector2 runnerPosNext = runnerPosCurrent;
 
@@ -55,11 +55,11 @@ public class MapGenerate : MonoBehaviour
         {
             if ((runnerPosNext.x >= dungeon.GetLength(0) - 1) | (runnerPosNext.y >= dungeon.GetLength(1) - 1) | (runnerPosNext.x < 1) | (runnerPosNext.y < 1))
             {
-                print("Whoops! Out of bounds");
+                //print("Whoops! Out of bounds");
             }
             else
             {
-                print((runnerDistance - 1) + " steps to go");
+                //print((runnerDistance - 1) + " steps to go");
                 dungeon = RunnerNoBacktrack(dungeon, runnerPosNext, runnerDistance - 1, newDirection * -1);
             }
         }
@@ -70,7 +70,7 @@ public class MapGenerate : MonoBehaviour
     {
         // Set given position as true
         dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y].Enable();
-        print("Map Array Entry " + (int)runnerPosCurrent.x + "," + (int)runnerPosCurrent.y + " has been set to: " + dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y]);
+        //print("Map Array Entry " + (int)runnerPosCurrent.x + "," + (int)runnerPosCurrent.y + " has been set to: " + dungeon[(int)runnerPosCurrent.x, (int)runnerPosCurrent.y]);
 
         // Decide direction for next instance, Advance on grid
         Vector2 runnerPosNext = runnerPosCurrent;
@@ -91,11 +91,11 @@ public class MapGenerate : MonoBehaviour
         {
             if ((runnerPosNext.x >= dungeon.GetLength(0) - 1) | (runnerPosNext.y >= dungeon.GetLength(1) - 1) | (runnerPosNext.x < 1) | (runnerPosNext.y < 1))
             {
-                print("Whoops! Out of bounds");
+                //print("Whoops! Out of bounds");
             }
             else
             {
-                print((runnerDistance - 1) + " steps to go");
+                //print((runnerDistance - 1) + " steps to go");
                 dungeon = RunnerStraightAhead(dungeon, runnerPosNext, runnerDistance - 1, newDirection * -1);
             }
         }
@@ -170,22 +170,22 @@ public class MapGenerate : MonoBehaviour
         {
             case 0: //up
                 newDirection = new Vector2(0, 1);
-                print("Next Direction: Up");
+                //print("Next Direction: Up");
                 break;
 
             case 1: //right
                 newDirection = new Vector2(1, 0);
-                print("Next Direction: Right");
+                //print("Next Direction: Right");
                 break;
 
             case 2: //down
                 newDirection = new Vector2(0, -1);
-                print("Next Direction: Down");
+                //print("Next Direction: Down");
                 break;
 
             case 3: //left
                 newDirection = new Vector2(-1, 0);
-                print("Next Direction: Left");
+                //print("Next Direction: Left");
                 break;
 
         }

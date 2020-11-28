@@ -49,7 +49,7 @@ public class TilePoolManager : MonoBehaviour
                     GameObject obj = Instantiate(tileset.GetTile(currentPool.ID),GameObject.Find(currentPool.ID.ToString()).transform);
                     obj.SetActive(false);
                     poolQueue.Enqueue(obj);
-                    print(currentPool.ID.ToString() + " tile instantiated");
+                    //print(currentPool.ID.ToString() + " tile instantiated");
                 }
                 poolDict.Add(currentPool.ID.ToString(), poolQueue);
                 print(currentPool.ID.ToString() + " Queue added to Dictionary");
@@ -78,7 +78,7 @@ public class TilePoolManager : MonoBehaviour
     {
         if (!_debugMode)
         {
-            print("Retrieving from Pool ID" + tile.tileID.ToString());
+            //print("Retrieving from Pool ID" + tile.tileID.ToString());
             GameObject objectToSpawn = poolDict[tile.tileID.ToString()].Dequeue();
 
             objectToSpawn.SetActive(true);
