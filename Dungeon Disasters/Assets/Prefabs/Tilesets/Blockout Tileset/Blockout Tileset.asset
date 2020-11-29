@@ -15,7 +15,7 @@ MonoBehaviour:
   Floor:
   - {fileID: 3218092935879227733, guid: 09b3785a6ef10e04e80176808747d520, type: 3}
   Wall_Straight:
-  - {fileID: 5559335889420475016, guid: 345f9c08ac368e340b57b9bac7288dfe, type: 3}
+  - {fileID: 189367344485856420, guid: 2bad8a0fb5d7e2f40b59f59ceb976a46, type: 3}
   Wall_Corner_Inner:
   - {fileID: 5549132613766933335, guid: 6731318858778634a91a8d344fb38474, type: 3}
   Wall_Corner_Outer:
