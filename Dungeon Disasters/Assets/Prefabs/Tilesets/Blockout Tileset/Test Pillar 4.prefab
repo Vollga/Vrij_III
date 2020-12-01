@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 704154580624156631}
   - component: {fileID: 4262785949878904034}
   m_Layer: 0
-  m_Name: Test Pillar
+  m_Name: Test Pillar 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352580361002845698}
-  m_Mesh: {fileID: 2978112183875666486, guid: 4e887e3d8faf1674190f32a891eb8c91, type: 3}
+  m_Mesh: {fileID: -8061891381285504716, guid: 4e887e3d8faf1674190f32a891eb8c91, type: 3}
 --- !u!23 &704154580624156631
 MeshRenderer:
   m_ObjectHideFlags: 0
