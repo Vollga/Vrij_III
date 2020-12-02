@@ -613,7 +613,8 @@ MonoBehaviour:
   roomSize: 16
   tileset:
   - {fileID: 11400000, guid: 682ff269998355e42aef8d6dba1568db, type: 2}
-  currentTileset: 0
+  - {fileID: 11400000, guid: e111b3ed7743bef4faf2c82537a360a7, type: 2}
+  currentTileset: 1
   runners: 3
   maxDistance: 12
   runnersKnowDirection: 1
@@ -647,7 +648,7 @@ MonoBehaviour:
   - ID: 6
     size: 40
   - ID: 7
-    size: 40
+    size: 80
   - ID: 8
     size: 30
   - ID: 9

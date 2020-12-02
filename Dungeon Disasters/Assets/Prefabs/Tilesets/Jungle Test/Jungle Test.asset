@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: efe777c302164bc489eedf1fcafce316, type: 3}
-  m_Name: Blockout Tileset
+  m_Name: Jungle Test
   m_EditorClassIdentifier: 
   Floor:
   - {fileID: 3218092935879227733, guid: 09b3785a6ef10e04e80176808747d520, type: 3}
   Wall_Straight:
-  - {fileID: 5559335889420475016, guid: 345f9c08ac368e340b57b9bac7288dfe, type: 3}
+  - {fileID: 8794847528971030216, guid: a2e258f39bfe6bd48a589ce3073b50aa, type: 3}
+  - {fileID: 5244064901303284900, guid: 4fcfd79fb3898cd41b46c8a7436e439b, type: 3}
+  - {fileID: 987129257624158725, guid: 93788162d853fd34abd90be3de1b0cf5, type: 3}
+  - {fileID: 850119240828062698, guid: d951d84a097df3448b3be15361b3865e, type: 3}
   Wall_Corner_Inner:
   - {fileID: 5549132613766933335, guid: 6731318858778634a91a8d344fb38474, type: 3}
   Wall_Corner_Outer:
@@ -47,7 +50,11 @@ MonoBehaviour:
   Switch:
   - {fileID: 6829695442273076948, guid: 266adeb16cfbbe442a1091a7202eb10c, type: 3}
   Pillar:
-  - {fileID: 6248485705081740367, guid: 3fb96b608842c98448c5a9e7213fff27, type: 3}
+  - {fileID: 1352580361002845698, guid: fb772a098ecd72e479bec81370403725, type: 3}
+  - {fileID: 1352580361002845698, guid: 417d25835ae3a34409b3f2902bedc5e6, type: 3}
+  - {fileID: 1352580361002845698, guid: 9136ffe0097a2a34a860964c9a8cb50b, type: 3}
+  - {fileID: 1352580361002845698, guid: 78a8d3e7b03ec274392f2abe5337d296, type: 3}
+  - {fileID: 1352580361002845698, guid: 9595d3f9688e40a4f93e0b64deed507e, type: 3}
   Statue:
   - {fileID: 9106970553572125702, guid: ddad2678e6ba38e4099c7d524f166867, type: 3}
   Clutter:

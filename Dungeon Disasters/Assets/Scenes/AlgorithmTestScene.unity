@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.030480485, g: 0.047483895, b: 0.07101219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1216,25 +1216,89 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5277866705017081006, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5277866705017081006, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5277866705017081006, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[0].size
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
-      propertyPath: _debugMode
-      value: 0
+      propertyPath: tilePools.Array.data[1].size
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[2].size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[3].size
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[4].size
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[5].size
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[6].size
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
       propertyPath: tilePools.Array.data[7].size
       value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[8].size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[9].size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[10].size
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[11].size
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[12].size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[13].size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[14].size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[15].size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[16].size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[17].size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[18].size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[19].size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[20].size
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5277866706110872132, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
       propertyPath: m_Name
