@@ -19,10 +19,19 @@ MonoBehaviour:
   - {fileID: 5244064901303284900, guid: 4fcfd79fb3898cd41b46c8a7436e439b, type: 3}
   - {fileID: 987129257624158725, guid: 93788162d853fd34abd90be3de1b0cf5, type: 3}
   - {fileID: 850119240828062698, guid: d951d84a097df3448b3be15361b3865e, type: 3}
+  - {fileID: 4448190832756856575, guid: f7bfd38e432465f41bce0cfdc384e568, type: 3}
+  - {fileID: 1489037402553043210, guid: f64f03c2c7a17b9439d814fed178c5e4, type: 3}
+  - {fileID: 1380500676891533194, guid: b21efbdc0492b9e4188d26d98531d3b7, type: 3}
+  - {fileID: 5012324270347728884, guid: 86ecfc013a4712142a9624652933b2bc, type: 3}
+  - {fileID: 1526811725523774337, guid: 76f72889e318ac246809b1a223476b51, type: 3}
   Wall_Corner_Inner:
-  - {fileID: 5549132613766933335, guid: 6731318858778634a91a8d344fb38474, type: 3}
+  - {fileID: 8573029107131210863, guid: 20ee6fe4aa5bbe34fad234b434d88387, type: 3}
+  - {fileID: 4957936275158566338, guid: f00ab57383936404c8bc9c3983e44162, type: 3}
+  - {fileID: 8339655484928925539, guid: 6601705eff3f6cd42b9662c9702f8fe8, type: 3}
   Wall_Corner_Outer:
-  - {fileID: 6132975679884494907, guid: 5d2efde596495c540aa0c3fa6c4d744c, type: 3}
+  - {fileID: 5797386368212924388, guid: 09d476fea03ea604c8eb20c9d09fb857, type: 3}
+  - {fileID: 2415807926444917077, guid: 674671f63c67aac48b4f904f03e57fdf, type: 3}
+  - {fileID: 2520854111978826158, guid: ed4beb10c33154d4ea2902f18ccb2e1d, type: 3}
   Door:
   - {fileID: 5042527867595839280, guid: 8541b2227e1bad64dad3ded354b912de, type: 3}
   Pit_Bottom:
@@ -62,4 +71,4 @@ MonoBehaviour:
   Portal:
   - {fileID: 8302032749871696131, guid: 77e24e988c83616408524fbabd157e54, type: 3}
   Void:
-  - {fileID: 6602624715624393375, guid: 8a412f5522c0aea439ad1bd6e1bc19f0, type: 3}
+  - {fileID: 626080097934930682, guid: 71d8d6da4022a774692df4ed85925e18, type: 3}
