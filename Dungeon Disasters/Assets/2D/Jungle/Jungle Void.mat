@@ -10,7 +10,7 @@ Material:
   m_Name: Jungle Void
   m_Shader: {fileID: 4800000, guid: 756bac9090102564582875f4c7e30202, type: 3}
   m_ShaderKeywords: _DISPLACEMENT_LOCK_TILING_SCALE _HEIGHTMAP _MAPPING_TRIPLANAR
-    _NORMALMAP _NORMALMAP_TANGENT_SPACE _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+    _MASKMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
     _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3 _TESSELLATION_DISPLACEMENT
     _TESSELLATION_PHONG _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
   m_LightmapFlags: 4
@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 74229ef71d8ba72459d29426b48bd78f, type: 3}
+        m_Texture: {fileID: 2800000, guid: a186b48e57b9a1a48bade78290e8fdc9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap0:
@@ -124,7 +124,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap:
-        m_Texture: {fileID: 2800000, guid: 3d45f1bd689268548ab6b8beff7029ab, type: 3}
+        m_Texture: {fileID: 2800000, guid: c813091f9f164e14a98e9059cee3c773, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap0:
@@ -160,11 +160,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 74229ef71d8ba72459d29426b48bd78f, type: 3}
+        m_Texture: {fileID: 2800000, guid: a186b48e57b9a1a48bade78290e8fdc9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: df03ea8d110598b4e964bcc1e5e9acac, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap0:
@@ -184,7 +184,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 659c5045a486ed245b3f6d8aea2948c1, type: 3}
+        m_Texture: {fileID: 2800000, guid: e3607041bb29d144c9064c2e9b765d8e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap0:
@@ -285,7 +285,7 @@ Material:
     - _AORemapMax1: 1
     - _AORemapMax2: 1
     - _AORemapMax3: 1
-    - _AORemapMin: 0
+    - _AORemapMin: 0.52407616
     - _AORemapMin0: 0
     - _AORemapMin1: 0
     - _AORemapMin2: 0
@@ -360,12 +360,12 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
-    - _HeightAmplitude: 0.02
+    - _HeightAmplitude: 0.06
     - _HeightAmplitude0: 0.02
     - _HeightAmplitude1: 0.02
     - _HeightAmplitude2: 0.02
     - _HeightAmplitude3: 0.02
-    - _HeightCenter: -0
+    - _HeightCenter: 0.33333334
     - _HeightCenter0: 0.5
     - _HeightCenter1: 0.5
     - _HeightCenter2: 0.5
@@ -375,12 +375,12 @@ Material:
     - _HeightMapParametrization1: 0
     - _HeightMapParametrization2: 0
     - _HeightMapParametrization3: 0
-    - _HeightMax: 1
+    - _HeightMax: 3
     - _HeightMax0: 1
     - _HeightMax1: 1
     - _HeightMax2: 1
     - _HeightMax3: 1
-    - _HeightMin: -1
+    - _HeightMin: -3
     - _HeightMin0: -1
     - _HeightMin1: -1
     - _HeightMin2: -1
@@ -415,7 +415,7 @@ Material:
     - _InheritBaseNormal1: 0
     - _InheritBaseNormal2: 0
     - _InheritBaseNormal3: 0
-    - _InvTilingScale: 10
+    - _InvTilingScale: 5
     - _InvTilingScale0: 1
     - _InvTilingScale1: 1
     - _InvTilingScale2: 1
@@ -463,7 +463,7 @@ Material:
     - _Smoothness1: 0.5
     - _Smoothness2: 0.5
     - _Smoothness3: 0.5
-    - _SmoothnessRemapMax: 0
+    - _SmoothnessRemapMax: 0.99999994
     - _SmoothnessRemapMax0: 1
     - _SmoothnessRemapMax1: 1
     - _SmoothnessRemapMax2: 1
@@ -495,13 +495,13 @@ Material:
     - _SupportDecals: 1
     - _SurfaceType: 0
     - _TessellationBackFaceCullEpsilon: -0.25
-    - _TessellationFactor: 20.8
+    - _TessellationFactor: 10
     - _TessellationFactorMaxDistance: 100
     - _TessellationFactorMinDistance: 50
     - _TessellationFactorTriangleSize: 100
     - _TessellationMode: 1
     - _TessellationShapeFactor: 1
-    - _TexWorldScale: 0.1
+    - _TexWorldScale: 0.2
     - _TexWorldScale0: 1
     - _TexWorldScale1: 1
     - _TexWorldScale2: 1
