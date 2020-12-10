@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Jungle Test
   m_EditorClassIdentifier: 
   Floor:
-  - {fileID: 3218092935879227733, guid: 09b3785a6ef10e04e80176808747d520, type: 3}
+  - {fileID: 8219184336466314189, guid: 88ca1811aa676704f89bb23ce31118fa, type: 3}
+  - {fileID: 5548877198683073598, guid: 7add7f96957cdef4695fd2173a352a57, type: 3}
+  - {fileID: 5294437880827444369, guid: 0a88842b4b60ae345b944ab06283993b, type: 3}
+  - {fileID: 6325525235815553135, guid: ff485e9c6f9ef0348829350996fc1ca4, type: 3}
+  - {fileID: 8753692736335221029, guid: 613b995eb4e9ac34f9199bd624df8b1e, type: 3}
+  - {fileID: 6108503690183476336, guid: 7609a2b951a1eb346861d694e1b0d79c, type: 3}
   Wall_Straight:
   - {fileID: 8794847528971030216, guid: a2e258f39bfe6bd48a589ce3073b50aa, type: 3}
   - {fileID: 5244064901303284900, guid: 4fcfd79fb3898cd41b46c8a7436e439b, type: 3}
@@ -32,6 +37,10 @@ MonoBehaviour:
   - {fileID: 5797386368212924388, guid: 09d476fea03ea604c8eb20c9d09fb857, type: 3}
   - {fileID: 2415807926444917077, guid: 674671f63c67aac48b4f904f03e57fdf, type: 3}
   - {fileID: 2520854111978826158, guid: ed4beb10c33154d4ea2902f18ccb2e1d, type: 3}
+  - {fileID: 7517173017054707329, guid: c712ebfb918acef44a01ee3c48ae1b06, type: 3}
+  - {fileID: 8126158415544414827, guid: b7b8b2f2fe733dd4ebed0075fe1eaa3a, type: 3}
+  - {fileID: 8126158415544414827, guid: b7b8b2f2fe733dd4ebed0075fe1eaa3a, type: 3}
+  - {fileID: 7517173017054707329, guid: c712ebfb918acef44a01ee3c48ae1b06, type: 3}
   Door:
   - {fileID: 5042527867595839280, guid: 8541b2227e1bad64dad3ded354b912de, type: 3}
   Pit_Bottom:
@@ -43,17 +52,17 @@ MonoBehaviour:
   Pit_Corner_Outer:
   - {fileID: 9175849265262954891, guid: dc7f8e7900c232c49acd68390f01e4e3, type: 3}
   Raised_Floor:
-  - {fileID: 6688774956991403292, guid: 2c65589cc1a9bbf43b41f7252c1993c3, type: 3}
+  - {fileID: 6410783399081649337, guid: 4113f701dd3dcd246bfae832ae463b3b, type: 3}
   Raised_Stairs:
-  - {fileID: 1215511729951335346, guid: 09f983ea5f596b9449565421effffcbd, type: 3}
+  - {fileID: 5639646159338719472, guid: 4e9ac6f8693944f4884d6d3fe0900a20, type: 3}
   Raised_Wall:
-  - {fileID: 5259394705260108208, guid: de0a42812ee8ce241b215d7df7676870, type: 3}
+  - {fileID: 3201662058375869877, guid: 464754a5b543bb44cb2d28927a3f2e5e, type: 3}
   Raised_Corner_Inner:
-  - {fileID: 9181281002131473113, guid: b3f19a92d0cfd1a4ea8b7719f60aca57, type: 3}
+  - {fileID: 1945525368481362406, guid: 5d53a532ef07b484186055a13295c98f, type: 3}
   Raised_Corner_Outer:
-  - {fileID: 2691308352073491924, guid: 22be22d6dd4fb3f4e8a7363c147691eb, type: 3}
+  - {fileID: 5606379173956867410, guid: 46e91ab15a331a646a0ba8091cacd772, type: 3}
   Raised_Corner_Double:
-  - {fileID: 1886223727877679797, guid: 831b22096ef0f2f409bb944f4935fcec, type: 3}
+  - {fileID: 5182555119453537809, guid: db974010f665ef74295da065f8045a3b, type: 3}
   Chest:
   - {fileID: 4122610684504613643, guid: 41ea7135bc5958d4e896d295a5897621, type: 3}
   Switch:
@@ -67,7 +76,8 @@ MonoBehaviour:
   Statue:
   - {fileID: 9106970553572125702, guid: ddad2678e6ba38e4099c7d524f166867, type: 3}
   Clutter:
-  - {fileID: 1999894403150743897, guid: e0aa9ef7636e80044a962160d76fabdb, type: 3}
+  - {fileID: 1622039524742270158, guid: 77314faf441d326439964d7297ab72e8, type: 3}
+  - {fileID: 2064828792742210823, guid: a783d683ed33bee48815e426229b1366, type: 3}
   Portal:
   - {fileID: 8302032749871696131, guid: 77e24e988c83616408524fbabd157e54, type: 3}
   Void:
