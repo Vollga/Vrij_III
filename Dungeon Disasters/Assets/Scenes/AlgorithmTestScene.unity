@@ -1238,7 +1238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
       propertyPath: tilePools.Array.data[2].size
-      value: 8
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
       propertyPath: tilePools.Array.data[3].size
