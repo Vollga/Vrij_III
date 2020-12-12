@@ -360,12 +360,12 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
-    - _HeightAmplitude: 0.06
+    - _HeightAmplitude: 0.04
     - _HeightAmplitude0: 0.02
     - _HeightAmplitude1: 0.02
     - _HeightAmplitude2: 0.02
     - _HeightAmplitude3: 0.02
-    - _HeightCenter: 0.33333334
+    - _HeightCenter: 0.25
     - _HeightCenter0: 0.5
     - _HeightCenter1: 0.5
     - _HeightCenter2: 0.5
@@ -375,12 +375,12 @@ Material:
     - _HeightMapParametrization1: 0
     - _HeightMapParametrization2: 0
     - _HeightMapParametrization3: 0
-    - _HeightMax: 3
+    - _HeightMax: 2
     - _HeightMax0: 1
     - _HeightMax1: 1
     - _HeightMax2: 1
     - _HeightMax3: 1
-    - _HeightMin: -3
+    - _HeightMin: -2
     - _HeightMin0: -1
     - _HeightMin1: -1
     - _HeightMin2: -1
@@ -415,7 +415,7 @@ Material:
     - _InheritBaseNormal1: 0
     - _InheritBaseNormal2: 0
     - _InheritBaseNormal3: 0
-    - _InvTilingScale: 5
+    - _InvTilingScale: 10
     - _InvTilingScale0: 1
     - _InvTilingScale1: 1
     - _InvTilingScale2: 1
@@ -440,7 +440,7 @@ Material:
     - _NormalMapSpace1: 0
     - _NormalMapSpace2: 0
     - _NormalMapSpace3: 0
-    - _NormalScale: 2
+    - _NormalScale: 1
     - _NormalScale0: 1
     - _NormalScale1: 1
     - _NormalScale2: 1
@@ -501,7 +501,7 @@ Material:
     - _TessellationFactorTriangleSize: 100
     - _TessellationMode: 1
     - _TessellationShapeFactor: 1
-    - _TexWorldScale: 0.2
+    - _TexWorldScale: 0.1
     - _TexWorldScale0: 1
     - _TexWorldScale1: 1
     - _TexWorldScale2: 1
