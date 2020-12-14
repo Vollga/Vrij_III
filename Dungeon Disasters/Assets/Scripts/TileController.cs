@@ -21,4 +21,8 @@ public class TileController : MonoBehaviour
     {
         poolManager.GetTile(ID, this.transform);
     }
+    private void OnDisable()
+    {
+        
+    }
 }
