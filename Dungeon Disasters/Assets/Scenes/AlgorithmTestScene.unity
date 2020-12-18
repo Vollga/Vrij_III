@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23111723, g: 0.27818355, b: 0.3976805, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -972,11 +972,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1396527226, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_Intensity
-      value: 2500
+      value: 15000
       objectReference: {fileID: 0}
     - target: {fileID: 1396527226, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_ShapeRadius
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1396527226, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_ShadowResolution.m_Level
@@ -984,11 +984,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1396527227, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_Intensity
-      value: 198.94368
+      value: 1193.662
       objectReference: {fileID: 0}
     - target: {fileID: 1396527227, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_Range
-      value: 40
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1396527227, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -996,7 +996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1396527227, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_ShadowRadius
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1463269530356355660, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_LocalRotation.x
