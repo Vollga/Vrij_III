@@ -494,9 +494,9 @@ Material:
     - _SubsurfaceMask3: 1
     - _SupportDecals: 1
     - _SurfaceType: 0
-    - _TessellationBackFaceCullEpsilon: -0.25
-    - _TessellationFactor: 10
-    - _TessellationFactorMaxDistance: 100
+    - _TessellationBackFaceCullEpsilon: 0
+    - _TessellationFactor: 32
+    - _TessellationFactorMaxDistance: 50
     - _TessellationFactorMinDistance: 50
     - _TessellationFactorTriangleSize: 100
     - _TessellationMode: 1
