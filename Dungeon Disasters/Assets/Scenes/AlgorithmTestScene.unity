@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.23111723, g: 0.27818355, b: 0.3976805, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -944,7 +944,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: b89a521777a4bac4f96b57f0edbe735a, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 394970c072ef7dc44ad05ec7181e4cab, type: 2}
 --- !u!4 &1694342855
 Transform:
   m_ObjectHideFlags: 0
@@ -1284,6 +1284,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[1].size
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[7].size
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[21].size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277866706110872129, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilePools.Array.data[2].size
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5277866706110872132, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
       propertyPath: m_Name
       value: Dungeon Controller
