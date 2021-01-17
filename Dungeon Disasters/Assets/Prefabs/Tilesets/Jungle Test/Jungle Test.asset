@@ -65,12 +65,16 @@ MonoBehaviour:
   - {fileID: 2520854111978826158, guid: ed4beb10c33154d4ea2902f18ccb2e1d, type: 3}
   - {fileID: 7517173017054707329, guid: c712ebfb918acef44a01ee3c48ae1b06, type: 3}
   - {fileID: 8126158415544414827, guid: b7b8b2f2fe733dd4ebed0075fe1eaa3a, type: 3}
-  - {fileID: 8126158415544414827, guid: b7b8b2f2fe733dd4ebed0075fe1eaa3a, type: 3}
+  - {fileID: 8837788615605245645, guid: f827cc60eeb6a31489b324f54761b33e, type: 3}
   - {fileID: 7517173017054707329, guid: c712ebfb918acef44a01ee3c48ae1b06, type: 3}
+  - {fileID: 8126158415544414827, guid: b7b8b2f2fe733dd4ebed0075fe1eaa3a, type: 3}
+  - {fileID: 8837788615605245645, guid: f827cc60eeb6a31489b324f54761b33e, type: 3}
   Door:
   - {fileID: 5140604990195942172, guid: 1a7b88ed557651b4ca634a188a74bc2c, type: 3}
   - {fileID: 6365583986551058604, guid: 1bbea402cc51e8c4aa0f37207bbe0da7, type: 3}
   - {fileID: 5915654531953709208, guid: 2b7664d4a755993449e234f5ebdd57cb, type: 3}
+  - {fileID: 919416222640644084, guid: 3021a0ffdc0dd4f4f8ffa48e388b7639, type: 3}
+  - {fileID: 1942363659844230924, guid: 2ef2d7145e826314fa970aac90a14897, type: 3}
   Pit_Bottom:
   - {fileID: 1946985993419064090, guid: 0517608deee2d324f939ee9784349f09, type: 3}
   Pit_Wall:
@@ -115,7 +119,7 @@ MonoBehaviour:
   - {fileID: 1636683645964540955, guid: 56c59cc6ba77830408fdc10a8350310b, type: 3}
   - {fileID: 192857687233379567, guid: 35fac15acd9517c42a654ddfd4776b52, type: 3}
   Chest:
-  - {fileID: 4122610684504613643, guid: 41ea7135bc5958d4e896d295a5897621, type: 3}
+  - {fileID: 1069912037276271142, guid: b5f19d5bf662fe64891aad3d48103bb9, type: 3}
   Switch:
   - {fileID: 6829695442273076948, guid: 266adeb16cfbbe442a1091a7202eb10c, type: 3}
   Pillar:
@@ -132,8 +136,9 @@ MonoBehaviour:
   Clutter:
   - {fileID: 1622039524742270158, guid: 77314faf441d326439964d7297ab72e8, type: 3}
   - {fileID: 2064828792742210823, guid: a783d683ed33bee48815e426229b1366, type: 3}
+  - {fileID: 6083759120960986507, guid: 9442bbee228941a43bcdc3ca3f72d61f, type: 3}
   Portal:
-  - {fileID: 8302032749871696131, guid: 77e24e988c83616408524fbabd157e54, type: 3}
+  - {fileID: 4914158158960059567, guid: 51d44892b5b98e6498bfbf7103e2c837, type: 3}
   Void:
   - {fileID: 115826390549619313, guid: 98103d025eb269a4b940e314bddc7698, type: 3}
   - {fileID: 115826390549619313, guid: 98103d025eb269a4b940e314bddc7698, type: 3}

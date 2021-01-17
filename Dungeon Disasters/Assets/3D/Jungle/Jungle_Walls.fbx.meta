@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 59d3f1a59ce3def4d888e9ed65608383
+guid: 15db24fce0fde2f4f946924cbfafb4cb
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
   externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Jungle_Plants
-    second: {fileID: 2100000, guid: acd468d598847ec4f967c5183e768799, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -17,18 +12,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Jungle_Trim_Stone
+      name: Jungle_Stone
     second: {fileID: 2100000, guid: 2c2d561ad4886f048a9324ce158765e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jungle_Trim_Plants
+    second: {fileID: 2100000, guid: acd468d598847ec4f967c5183e768799, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Jungle_Void
     second: {fileID: 2100000, guid: 03c544da33b169f43a93ef9df5b63fc6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: blinn1
-    second: {fileID: 2100000, guid: acd468d598847ec4f967c5183e768799, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

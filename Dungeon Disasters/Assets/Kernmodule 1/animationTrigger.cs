@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.Experimental.VFX;
 using UnityEngine.VFX;
 
+
+[AddComponentMenu("Kern 1/Animation Trigger (Kern)")]
 public class animationTrigger : MonoBehaviour
 {
     public VisualEffect vfx;

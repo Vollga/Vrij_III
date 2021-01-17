@@ -32,6 +32,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Jungle_Trim_Plants
+    second: {fileID: 2100000, guid: acd468d598847ec4f967c5183e768799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Jungle_Void
     second: {fileID: 2100000, guid: 03c544da33b169f43a93ef9df5b63fc6, type: 2}
   materials:
