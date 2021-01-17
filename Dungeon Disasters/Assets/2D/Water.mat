@@ -8,14 +8,15 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water
-  m_Shader: {fileID: 4800000, guid: 99a019b8b960678468a33065ec013fbb, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: ea492ae9da291c04f841372fb9d0ac22, type: 3}
   m_ShaderKeywords: _BLENDMODE_ALPHA _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap:
     MotionVector: User
+    RenderType: Transparent
   disabledShaderPasses:
   - DistortionVectors
   - MOTIONVECTORS
@@ -244,7 +245,7 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - Color_16F20BD5: {r: 0.3379762, g: 0.46226418, b: 0.41018867, a: 0.7019608}
-    - Color_912066EB: {r: 0.068396226, g: 0.2735849, b: 0.14534584, a: 0.3137255}
+    - Color_912066EB: {r: 0.7264151, g: 0.24328054, b: 0.4971596, a: 0.3137255}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

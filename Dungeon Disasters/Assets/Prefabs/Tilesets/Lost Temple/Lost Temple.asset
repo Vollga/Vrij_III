@@ -45,6 +45,24 @@ MonoBehaviour:
   - {fileID: 6119586112852119935, guid: 134af4078e6f7714484eb8d17ef4a04b, type: 3}
   - {fileID: 8273264147863161025, guid: 0cf0bad238bcc0e43bafda15cfc3dfd4, type: 3}
   - {fileID: 8273264147863161025, guid: 0cf0bad238bcc0e43bafda15cfc3dfd4, type: 3}
+  - {fileID: 8273264147863161025, guid: 0cf0bad238bcc0e43bafda15cfc3dfd4, type: 3}
+  - {fileID: 2041003166412526447, guid: 2e225b5911940384b816cb7c698a7720, type: 3}
+  - {fileID: 6967544743310372953, guid: d6ac0eaf6d3c5084d8bdc7942e4ab246, type: 3}
+  - {fileID: 1876321822293769764, guid: 6efba7ac058699f4bb0e5a66da9f6840, type: 3}
+  - {fileID: 1069037717575485530, guid: 6c1fcd96e12c91740ac82ee4cd92aa4a, type: 3}
+  - {fileID: 7136165379897098643, guid: d5af0cfa31bfcc74aaf52031e3be83f7, type: 3}
+  - {fileID: 6724257984719466185, guid: c15e00792f30727408f2d1948ee1c2cd, type: 3}
+  - {fileID: 5293869838780151509, guid: 1a8427bd7be4b3346b7a70db2b0fd8e7, type: 3}
+  - {fileID: 3176118340729387443, guid: 3339b58d0d77e0b48ae91573e286d961, type: 3}
+  - {fileID: 8273264147863161025, guid: 0cf0bad238bcc0e43bafda15cfc3dfd4, type: 3}
+  - {fileID: 2041003166412526447, guid: 2e225b5911940384b816cb7c698a7720, type: 3}
+  - {fileID: 6967544743310372953, guid: d6ac0eaf6d3c5084d8bdc7942e4ab246, type: 3}
+  - {fileID: 1876321822293769764, guid: 6efba7ac058699f4bb0e5a66da9f6840, type: 3}
+  - {fileID: 1069037717575485530, guid: 6c1fcd96e12c91740ac82ee4cd92aa4a, type: 3}
+  - {fileID: 7136165379897098643, guid: d5af0cfa31bfcc74aaf52031e3be83f7, type: 3}
+  - {fileID: 6724257984719466185, guid: c15e00792f30727408f2d1948ee1c2cd, type: 3}
+  - {fileID: 5293869838780151509, guid: 1a8427bd7be4b3346b7a70db2b0fd8e7, type: 3}
+  - {fileID: 3176118340729387443, guid: 3339b58d0d77e0b48ae91573e286d961, type: 3}
   Wall_Corner_Inner:
   - {fileID: 892411455681618684, guid: 666c11b3efecf3e4483fa3eafe651e41, type: 3}
   - {fileID: 8968011009627037487, guid: dc6a4e3eeff4e174c81b10debb64c14c, type: 3}
@@ -64,10 +82,28 @@ MonoBehaviour:
   - {fileID: 6230523935149162804, guid: e77ab5db9bcb11442a021131b5119d1a, type: 3}
   - {fileID: 2796890631579528957, guid: 590af39fc459f8f4789589594223c604, type: 3}
   - {fileID: 796114613718818408, guid: 5cfd8a494a26705478f8da2798ba376d, type: 3}
-  Pit_Bottom: []
-  Pit_Wall: []
-  Pit_Corner_Inner: []
-  Pit_Corner_Outer: []
+  Pit_Bottom:
+  - {fileID: 6980071937025929092, guid: 40290fbfac018574ca6bcc6a8edf9117, type: 3}
+  - {fileID: 8930946969643587709, guid: 98c67b0e481d3204aab3aca9245cafed, type: 3}
+  - {fileID: 1383475129266115736, guid: b72cfb2271e192a489de4c9a82b85fca, type: 3}
+  - {fileID: 932942551036378939, guid: 866e58a63f0208c49a3034cf357cafbe, type: 3}
+  Pit_Wall:
+  - {fileID: 9019410768458371450, guid: 987ddf1f32f6e4d469786017b6312448, type: 3}
+  - {fileID: 2813972141345114683, guid: 227156da714862a48adccbcecc494f05, type: 3}
+  - {fileID: 6402583286112296299, guid: 419f7dd480aac994184cc2e90e25e3c1, type: 3}
+  - {fileID: 2879278100341650384, guid: e5c380991ca459f4399dd1a4c85b4d17, type: 3}
+  - {fileID: 5252366419071823590, guid: 5096943bfe639d946a261e9132e60359, type: 3}
+  - {fileID: 4535044758691390652, guid: c5447f81cc603414c9b4e898e813721c, type: 3}
+  Pit_Corner_Inner:
+  - {fileID: 6847189362641640865, guid: d73ce253f01b9bb459bb07d86fed4543, type: 3}
+  - {fileID: 2515475184108638796, guid: 3e3633af74ed2ce4aa42fd6d25900a76, type: 3}
+  - {fileID: 1012344358863303803, guid: 1ab0a0f40d134b340bc90a6fc547b778, type: 3}
+  - {fileID: 843264406901941425, guid: d134dc6fb4f17474e89189d5470fe389, type: 3}
+  Pit_Corner_Outer:
+  - {fileID: 9043674668478319750, guid: 59ab504542bd45f4c9bdc6e464bd3b0d, type: 3}
+  - {fileID: 3873451940459354746, guid: 84e2f2db47f0f394f9fd90afe43e9b00, type: 3}
+  - {fileID: 763968283643889337, guid: 7e038d236596d7840bdfa7cdeb9e07e9, type: 3}
+  - {fileID: 6394636020481326858, guid: c19bff91cf7d4434a9dff5ac36230485, type: 3}
   Raised_Floor:
   - {fileID: 1006353318695763571, guid: f7264a49b8708254b8ce56c79b4223f8, type: 3}
   - {fileID: 5563361707179476446, guid: 43a53937a1a712c459da32385919f2b0, type: 3}

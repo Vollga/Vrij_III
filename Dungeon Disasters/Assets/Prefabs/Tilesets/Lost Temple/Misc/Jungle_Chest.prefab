@@ -227,5 +227,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 896283289454290747}
-  openTrigger: open
-  closeTrigger: close
+  engageTrigger: open
+  disengageTrigger: close
