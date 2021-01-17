@@ -64,7 +64,7 @@ public class DungeonController : MonoBehaviour
             print("This dungeon has " + roomsList.Count + " rooms.");
 
             GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>().enabled = false;
-            GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(0, 30, 0);
+            GameObject.FindGameObjectWithTag("Player").transform.position = GameObject.Find("Portal(Clone)").transform.position + new Vector3(0, 30, 0);
             GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>().enabled = true;
 
         }

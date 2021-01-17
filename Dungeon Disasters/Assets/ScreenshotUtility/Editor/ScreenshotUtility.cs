@@ -22,7 +22,7 @@ public sealed class ScreenshotUtility : EditorWindow, IHasCustomMenu
     private int ssWidth = 1920;
     private int ssHeight = 1080;
 
-    private static string[] reslist = new string[] { "720p", "1080p", "1140p", "4K", "8K", "Custom..." };
+    private static string[] reslist = new string[] { "720p", "1080p", "2K", "4K", "8K", "Custom..." };
     private const float FLOAT_WIDE_MULTIPLIER = 1.3215f;
     public static int Resolution
     {

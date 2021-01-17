@@ -84,6 +84,11 @@ MonoBehaviour:
   - {fileID: 6128094143410526343, guid: 8abb4882bbe14384ba1e45c07a0af2a6, type: 3}
   - {fileID: 1173887473050490766, guid: ec1b815b2adc0ab45828b6db4042cfd0, type: 3}
   - {fileID: 3459012889369482162, guid: 744ef36db8881864c88a18b9ef60addb, type: 3}
+  - {fileID: 6491607400278895291, guid: bdc60b65b72e6944ebe241cd95de8345, type: 3}
+  - {fileID: 7214307341359624215, guid: 29957b16d7f992a4b86fe0723b30f01b, type: 3}
+  - {fileID: 6128094143410526343, guid: 8abb4882bbe14384ba1e45c07a0af2a6, type: 3}
+  - {fileID: 1173887473050490766, guid: ec1b815b2adc0ab45828b6db4042cfd0, type: 3}
+  - {fileID: 3459012889369482162, guid: 744ef36db8881864c88a18b9ef60addb, type: 3}
   Door:
   - {fileID: 2144386572865334852, guid: cc29e88ef3a43ab409c347ada0548286, type: 3}
   - {fileID: 229345150001758634, guid: 4b1c626ce8fd1424eaad5de551dbcb45, type: 3}

@@ -16,11 +16,12 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         character = this.GetComponent<CharacterController>();
+        transform.position = GameObject.Find("Portal(Clone)").transform.position + new Vector3(0, 30, 0);
     }
 
 
 
-    void LateUpdate()
+    void Update()
     {
         if (character.isGrounded)
         {

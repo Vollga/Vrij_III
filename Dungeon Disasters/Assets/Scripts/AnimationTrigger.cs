@@ -15,7 +15,7 @@ public class AnimationTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             //open Door
-            print("Open Sesame");
+            //print("Open Sesame");
             target.SetTrigger(engageTrigger);
         }
     }
@@ -24,7 +24,7 @@ public class AnimationTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             //close Door
-            print("Close Sesame");
+            //print("Close Sesame");
             target.SetTrigger(disengageTrigger);
         }
     }
