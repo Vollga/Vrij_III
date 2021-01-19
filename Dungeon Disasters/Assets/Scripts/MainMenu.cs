@@ -8,10 +8,6 @@ public class MainMenu : MonoBehaviour
     public Animator SceneCam;
 
     // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
 
     // Update is called once per frame
     void Update()
@@ -19,6 +15,9 @@ public class MainMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             StartCoroutine(SceneTransition());
+        } else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 
