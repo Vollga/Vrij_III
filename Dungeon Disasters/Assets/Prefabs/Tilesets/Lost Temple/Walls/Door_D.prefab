@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3949884911289651698}
   m_Layer: 0
   m_Name: Door_D
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,9 +32,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 8505822051218445529}
   - {fileID: 7189026739711843452}
   - {fileID: 553850411721465243}
-  - {fileID: 8505822051218445529}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -171,7 +171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8213686718124639144, guid: 9ceb300aa72718a44adb0fcf192b008e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8213686718124639144, guid: 9ceb300aa72718a44adb0fcf192b008e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -233,7 +233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8490604595148487992, guid: 1ee307bbe69907147b0ead7160bb53d4, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8490604595148487992, guid: 1ee307bbe69907147b0ead7160bb53d4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -295,7 +295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8490604595148487992, guid: 1ee307bbe69907147b0ead7160bb53d4, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8490604595148487992, guid: 1ee307bbe69907147b0ead7160bb53d4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

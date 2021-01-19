@@ -28,7 +28,8 @@ public class FireFlicker : MonoBehaviour
             //_lightSource.intensity = Mathf.Lerp(_lightSource.intensity, Random.Range(_baseIntensity - MinMax, _baseIntensity + MinMax), Strength * Time.deltaTime);
 
             _lightSource.intensity = _baseIntensity + ((Mathf.Sin(Time.time * Speed) * Mathf.Sin(Time.time * Speed * _randomSeed)) * MinMax);
-   
+            //_lightSource.intensity = _baseIntensity + (Mathf.PerlinNoise(0, Time.time * Speed) * MinMax);
+
             yield return new WaitForSeconds(RateDamping);
         }
     }

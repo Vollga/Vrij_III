@@ -90,5 +90,9 @@ public class TilePoolManager : MonoBehaviour
         }
     }
 
+    public void DisableTile()
+    {
+
+    }
 
 }
