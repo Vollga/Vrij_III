@@ -58,7 +58,7 @@ public class TilePoolManager : MonoBehaviour
         
     }
 
-    public void GetTile(TileID ID, Transform parent)
+    public GameObject GetTile(TileID ID, Transform parent)
     {
         if (!_debugMode)
         {
@@ -70,7 +70,9 @@ public class TilePoolManager : MonoBehaviour
             objectToSpawn.transform.rotation = parent.rotation;
 
             poolDict[ID.ToString()].Enqueue(objectToSpawn);
+            return objectToSpawn;
         }
+        return null;
     }
 
 

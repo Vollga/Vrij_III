@@ -3,11 +3,15 @@
 public class RoomController : MonoBehaviour
 {
     public GameObject tileGroup;
+    public bool _isStartRoom;
     // Start is called before the first frame update
 
-    private void Start()
+    private void Awake()
     {
-        tileGroup.SetActive(false);
+        if (!_isStartRoom)
+        {
+            tileGroup.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter(Collider other)

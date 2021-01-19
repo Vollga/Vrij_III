@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Kern 1 Herkansing.unity
-    guid: 92c66b1fd5a23fa488ef73a054272e8d
+    path: Assets/Scenes/Dungeon Entrance.unity
+    guid: fee0260bd7d6d2e4dbaa94ef7ec65008
+  - enabled: 1
+    path: Assets/Scenes/DungeonCrawl.unity
+    guid: b96a308bf0ffaea4a8cc3855df1546fa
   m_configObjects: {}

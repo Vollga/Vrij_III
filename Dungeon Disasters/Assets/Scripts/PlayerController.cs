@@ -1,9 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    #region Singleton
+    public static PlayerController Player;
+    #endregion
+
+
     public float speed = 6.0F;
     public float runSpeed = 1.5f;
     public float gravity = 20.0F;
@@ -13,10 +19,15 @@ public class PlayerController : MonoBehaviour
 
     CharacterController character;
 
+    void Awake()
+    {
+        Player = this;
+    }
+
     private void Start()
     {
         character = this.GetComponent<CharacterController>();
-        transform.position = GameObject.Find("Portal(Clone)").transform.position + new Vector3(0, 30, 0);
+        StartCoroutine(PlayerReset());
     }
 
 
@@ -49,5 +60,28 @@ public class PlayerController : MonoBehaviour
         }
         moveDirection.y -= gravity * Time.deltaTime;
         character.Move(moveDirection * Time.deltaTime);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(PlayerReset());
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
+
+    IEnumerator PlayerReset()
+    {
+        character.enabled = false;
+
+        yield return new WaitForSeconds(.1f);
+
+        transform.position = GameObject.Find("TargetPortal").transform.position;
+        playerAnimator.SetTrigger("teleport");
+
+        character.enabled = true;
+        
+        yield break;
+    }
+
 }

@@ -19,8 +19,8 @@ public class DungeonController : MonoBehaviour
 
     [Header("Tileset Setup")]
     public Tileset[] tileset;
-    public int currentTileset;
-    
+    public int tilesetToUse;
+    public bool _blockoutMode = false;
 
 
     [Header("Runner Parameters")]
@@ -41,7 +41,7 @@ public class DungeonController : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        this.GetComponent<TilePoolManager>().InitialGenerate(tileset[currentTileset]);
+        //this.GetComponent<TilePoolManager>().InitialGenerate(tileset[tilesetToUse]);
     }
 
     private void Start()
@@ -53,7 +53,7 @@ public class DungeonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             foreach (GameObject room in roomsList)
             {
@@ -62,11 +62,10 @@ public class DungeonController : MonoBehaviour
             roomsList.Clear();
             InitialiseDungeon();
             print("This dungeon has " + roomsList.Count + " rooms.");
-
-            GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>().enabled = false;
-            GameObject.FindGameObjectWithTag("Player").transform.position = GameObject.Find("Portal(Clone)").transform.position + new Vector3(0, 30, 0);
-            GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>().enabled = true;
-
+        }
+        if (Input.GetKeyDown("b"))
+        {
+            _blockoutMode = !_blockoutMode;
         }
 
     }
@@ -112,8 +111,7 @@ public class DungeonController : MonoBehaviour
 
         // Place Placeholders
 
-        roomsList = DungeonSpawner.DrawLayout(dungeon, startPosition*-1, sizemultiplier, this.transform, false, roomSet.ErrorRoom);
-
+        roomsList = DungeonSpawner.DrawLayout(dungeon, startPosition*-1, sizemultiplier, this.transform, true, roomSet.EmptyRoom);
     }
 
 }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1944719932609684450}
   - component: {fileID: 4727220299602361381}
   m_Layer: 0
-  m_Name: T
+  m_Name: T Anchor Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57,7 +57,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 48, y: 48, z: 48}
+  m_Size: {x: 80, y: 48, z: 80}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299275409636628969
 GameObject:

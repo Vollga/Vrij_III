@@ -30,12 +30,20 @@ public class DungeonDict : ScriptableObject
     public GameObject[] TLeft;
     [Header("Center Rooms")]
     public GameObject[] Center;
+    [Header("Empty")]
+    public GameObject EmptyRoom;
     [Header("Error")]
     public GameObject ErrorRoom;
 
 
     //Get Rooms
 
+
+        //Empty
+    public GameObject GetEmpty()
+    {
+        return EmptyRoom;
+    }
 
         //Entrances
     public GameObject GetEntrance()

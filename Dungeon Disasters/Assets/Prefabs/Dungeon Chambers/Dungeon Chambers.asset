@@ -164,4 +164,5 @@ MonoBehaviour:
   - {fileID: 4851053201267728973, guid: d2a086e4d118fbb4aaa44961fef9d1ff, type: 3}
   - {fileID: 4851053201267728973, guid: 2eabe30faa0755f419c8d1a72e46c420, type: 3}
   - {fileID: 4851053201267728973, guid: ae35a67f6dad7b04bbbbdce1e6a5d219, type: 3}
+  EmptyRoom: {fileID: 2495551812053133527, guid: 6b83ed4d4f9686a4ca94ba27a4436e7c, type: 3}
   ErrorRoom: {fileID: 2495551812053133527, guid: 6b83ed4d4f9686a4ca94ba27a4436e7c, type: 3}

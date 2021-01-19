@@ -28,4 +28,9 @@ public class AnimationTrigger : MonoBehaviour
             target.SetTrigger(disengageTrigger);
         }
     }
+
+    public void ManualTrigger(string triggerTag)
+    {
+        target.SetTrigger(triggerTag);
+    }
 }
