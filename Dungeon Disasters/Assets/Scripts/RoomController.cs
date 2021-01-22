@@ -19,7 +19,7 @@ public class RoomController : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             tileGroup.SetActive(true);
-            print("Enabled Room");
+            //print("Enabled Room");
         }
     }
     private void OnTriggerExit(Collider other)
@@ -27,7 +27,7 @@ public class RoomController : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             tileGroup.SetActive(false);
-            print("Disabled Room");
+            //print("Disabled Room");
         }
     }
 }

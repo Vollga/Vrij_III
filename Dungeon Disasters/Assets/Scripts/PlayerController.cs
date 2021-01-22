@@ -76,9 +76,11 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(.1f);
 
-        transform.position = GameObject.Find("TargetPortal").transform.position;
+        transform.position = GameObject.Find("TargetPortal").transform.position + new Vector3 (0,0.2f,0);
         playerAnimator.SetTrigger("teleport");
-
+        
+        yield return new WaitForSeconds(2f);
+        
         character.enabled = true;
         
         yield break;

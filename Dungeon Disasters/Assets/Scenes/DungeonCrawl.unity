@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.23111723, g: 0.27818355, b: 0.3976805, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -521,10 +521,6 @@ PrefabInstance:
     - target: {fileID: 7247279505544366580, guid: 15b8c2cbd4139864791854a8615da359, type: 3}
       propertyPath: m_Name
       value: Forest Canopy Cookie renderer
-      objectReference: {fileID: 0}
-    - target: {fileID: 7247279507144898256, guid: 15b8c2cbd4139864791854a8615da359, type: 3}
-      propertyPath: m_Name
-      value: Cookie Render Camera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15b8c2cbd4139864791854a8615da359, type: 3}

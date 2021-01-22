@@ -388,11 +388,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae35a67f6dad7b04bbbbdce1e6a5d219, type: 3}
---- !u!4 &370398029 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1463269531123194999, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-  m_PrefabInstance: {fileID: 1695232344}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &379951099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4851053201267728972, guid: ae35a67f6dad7b04bbbbdce1e6a5d219, type: 3}
@@ -971,58 +966,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1396527226, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: showAdditionalSettings
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1396527226, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_PenumbraTint
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1396527226, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_ShadowTint.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1396527226, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_ShadowTint.g
-      value: 0.62352943
-      objectReference: {fileID: 0}
-    - target: {fileID: 1396527226, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_ShadowTint.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1396527226, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_NormalBias
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1463269530437561831, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1463269530476359311, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1463269530875587586, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1463269530875587586, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1463269530875587589, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1463269530957051346, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: m_FocalLength
-      value: 44.78461
-      objectReference: {fileID: 0}
-    - target: {fileID: 1463269530957051346, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
-      propertyPath: field of view
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 1463269531123194998, guid: 6d75cae9e2c395b4bbc40e34b0387f61, type: 3}
       propertyPath: m_Name
       value: Player Root
@@ -1417,6 +1360,10 @@ PrefabInstance:
       propertyPath: tileset.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: 862add317d27e07478bc11fb5f36efca, type: 2}
+    - target: {fileID: 5277866706110872135, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
+      propertyPath: tilesetToUse
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33923bb5d58901a4ba3635affe13c2c2, type: 3}
 --- !u!1001 &7247279507002617164
@@ -1491,10 +1438,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Topdown Camera
       objectReference: {fileID: 0}
-    - target: {fileID: 7935692735518513777, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 370398029}
     - target: {fileID: 7935692735518513789, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

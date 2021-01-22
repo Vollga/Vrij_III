@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 7247279507144898284}
   - component: {fileID: 7247279507144898258}
   m_Layer: 9
-  m_Name: Camera
+  m_Name: Cookie Render Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -163,7 +163,7 @@ Camera:
     m_Bits: 512
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: e1b70ff50f79364498dee01a61e8d896, type: 2}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 0

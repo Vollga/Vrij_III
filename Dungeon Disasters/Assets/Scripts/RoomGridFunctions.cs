@@ -16,7 +16,7 @@ public class RoomGridFunctions : MonoBehaviour
                     if (dungeon[iX, iZ + 1].isEnabled)       //Check if has room Above
                     {
                         dungeon[iX, iZ].hasRoomUp = true;
-                        print("Room " + iX + "," + iZ + " has a neighbor above");
+                        //print("Room " + iX + "," + iZ + " has a neighbor above");
                     }
                 }
 
@@ -25,7 +25,7 @@ public class RoomGridFunctions : MonoBehaviour
                     if (dungeon[iX, iZ - 1].isEnabled)      //Check if has room Below
                     {
                         dungeon[iX, iZ].hasRoomDown = true;
-                        print("RoomGrid " + iX + "," + iZ + " has a neighbor below");
+                        //print("RoomGrid " + iX + "," + iZ + " has a neighbor below");
                     }
                 }
 
@@ -34,7 +34,7 @@ public class RoomGridFunctions : MonoBehaviour
                     if (dungeon[iX + 1, iZ].isEnabled)      //Check if has room Right
                     {
                         dungeon[iX, iZ].hasRoomRight = true;
-                        print("Room " + iX + "," + iZ + " has a neighbor to the right");
+                        //print("Room " + iX + "," + iZ + " has a neighbor to the right");
                     }
                 }
 
@@ -43,7 +43,7 @@ public class RoomGridFunctions : MonoBehaviour
                     if (dungeon[iX - 1, iZ].isEnabled)      //Check if has room Left
                     {
                         dungeon[iX, iZ].hasRoomLeft = true;
-                        print("Room " + iX + "," + iZ + " has a neighbor to the left");
+                        //print("Room " + iX + "," + iZ + " has a neighbor to the left");
                     }
                 }
                 // Assign matching prefab from set
