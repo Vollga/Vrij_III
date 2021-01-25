@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MinMax: 6
-  RateDamping: 0.1
+  RateDamping: 0.15
   Speed: 2
   StopFlickering: 0
 --- !u!33 &8265831907811372622

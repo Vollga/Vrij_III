@@ -4670,6 +4670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Forest Canopy Cookie renderer
       objectReference: {fileID: 0}
+    - target: {fileID: 7247279507144898284, guid: 15b8c2cbd4139864791854a8615da359, type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15b8c2cbd4139864791854a8615da359, type: 3}
 --- !u!1001 &999883142
@@ -5375,7 +5379,7 @@ GameObject:
   - component: {fileID: 1070441332}
   - component: {fileID: 1070441331}
   m_Layer: 5
-  m_Name: Controls_1
+  m_Name: Zapsplat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6057,6 +6061,7 @@ GameObject:
   - component: {fileID: 1174063787}
   - component: {fileID: 1174063786}
   - component: {fileID: 1174063785}
+  - component: {fileID: 1174063777}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -6169,6 +6174,21 @@ MonoBehaviour:
       data1: 0
       data2: 0
   defaultFrameSettings: 0
+--- !u!114 &1174063777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174063775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec589bf0cc3c9cd44ae74e5c0a4e2a83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1070441331}
+  engageTrigger: 
+  disengageTrigger: 
 --- !u!20 &1174063778
 Camera:
   m_ObjectHideFlags: 0

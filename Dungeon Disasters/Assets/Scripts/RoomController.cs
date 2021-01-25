@@ -12,6 +12,7 @@ public class RoomController : MonoBehaviour
         {
             tileGroup.SetActive(false);
         }
+        this.GetComponent<BoxCollider>().size = new Vector3(DungeonController.Instance.colliderSize * DungeonController.Instance.tileSize, 50, DungeonController.Instance.colliderSize * DungeonController.Instance.tileSize);
     }
 
     private void OnTriggerEnter(Collider other)

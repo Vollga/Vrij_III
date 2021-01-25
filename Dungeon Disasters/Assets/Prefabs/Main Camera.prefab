@@ -194,5 +194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraSpeed: 0.1
+  maxJoystickOffset: 4
   offsetPos: {x: 0, y: 33, z: -11.5}
   offsetAngle: {x: 70, y: 0, z: 0}

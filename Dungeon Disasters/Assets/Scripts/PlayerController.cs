@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 moveDirection = Vector3.zero;
 
     CharacterController character;
+    GameObject playerModel;
 
     void Awake()
     {
@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     {
         character = this.GetComponent<CharacterController>();
         StartCoroutine(PlayerReset());
+        playerModel = transform.GetChild(0).gameObject;
     }
 
 
@@ -60,13 +61,15 @@ public class PlayerController : MonoBehaviour
         }
         moveDirection.y -= gravity * Time.deltaTime;
         character.Move(moveDirection * Time.deltaTime);
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButtonDown("Jump"))
         {
             StartCoroutine(PlayerReset());
-        }
-        if (Input.GetKeyDown(KeyCode.Escape))
+        } else if (Input.GetButtonDown("Cancel"))
         {
             SceneManager.LoadScene(0);
+        } else if (Input.GetButtonDown("PlayerToggle"))
+        {
+            playerModel.SetActive(!playerModel.activeSelf);
         }
     }
 

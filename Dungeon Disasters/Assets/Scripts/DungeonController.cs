@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Runtime.InteropServices;
 //using System.Runtime.CompilerServices;
 using UnityEngine;
 
@@ -16,6 +15,7 @@ public class DungeonController : MonoBehaviour
     public int gridSize = 16;
     public int tileSize = 3;
     public int roomSize = 16;
+    public int colliderSize = 16;
 
     [Header("Tileset Setup")]
     public Tileset[] tileset;
@@ -53,7 +53,7 @@ public class DungeonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButtonDown("Jump"))
         {
             foreach (GameObject room in roomsList)
             {
@@ -63,7 +63,7 @@ public class DungeonController : MonoBehaviour
             InitialiseDungeon();
             print("This dungeon has " + roomsList.Count + " rooms.");
         }
-        if (Input.GetKeyDown("b"))
+        if (Input.GetButtonDown("ModeToggle"))
         {
             _blockoutMode = !_blockoutMode;
         }
