@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.23111723, g: 0.27818355, b: 0.3976805, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -301,6 +301,46 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 520426175}
+    - target: {fileID: 7935692735518513777, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
+      propertyPath: maxJoystickOffset
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935692735518513777, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
+      propertyPath: offsetPos.x
+      value: -8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935692735518513777, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
+      propertyPath: offsetPos.y
+      value: 22.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935692735518513777, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
+      propertyPath: offsetPos.z
+      value: -23.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935692735518513777, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
+      propertyPath: offsetAngle.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935692735518513777, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
+      propertyPath: offsetAngle.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935692735518513777, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
+      propertyPath: cameraSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935692735518513788, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
+      propertyPath: m_FocalLength
+      value: 54.1285
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935692735518513788, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
+      propertyPath: field of view
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935692735518513788, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
+      propertyPath: far clip plane
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 7935692735518513789, guid: 01bb03efa766c024e850c25d1404f617, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
