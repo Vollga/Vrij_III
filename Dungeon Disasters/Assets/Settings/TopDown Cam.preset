@@ -29,6 +29,18 @@ Preset:
     value: 0.1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: _rightStickControlsZoom
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: zoomStrength
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxJoystickOffset
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: offsetPos.x
     value: 0
     objectReference: {fileID: 0}
